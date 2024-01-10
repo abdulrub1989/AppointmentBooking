@@ -1,0 +1,593 @@
+2024-01-09 13:00:21.241 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 13:00:21.734 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 13:00:21.735 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 13:00:21.747 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 13:00:21.749 +05:30 [INF] Hosting environment: Development
+2024-01-09 13:00:21.750 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 13:00:25.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 13:00:25.590 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:00:25.992 +05:30 [INF] Error from RemoteAuthentication: OpenIdConnectAuthenticationHandler: message.State is null or empty..
+2024-01-09 13:00:26.003 +05:30 [ERR] HTTP GET / responded 500 in 417.8821 ms
+System.Exception: An error was encountered while handling the remote login.
+ ---> System.Exception: OpenIdConnectAuthenticationHandler: message.State is null or empty.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-09 13:00:26.082 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: An error was encountered while handling the remote login.
+ ---> System.Exception: OpenIdConnectAuthenticationHandler: message.State is null or empty.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-09 13:00:26.381 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 500 - text/html;+charset=utf-8 885.3700ms
+2024-01-09 13:00:26.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 13:00:26.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 13:00:26.412 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 21.0204ms
+2024-01-09 13:00:26.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.9043ms
+2024-01-09 13:06:04.941 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 13:06:05.425 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 13:06:05.426 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 13:06:05.433 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 13:06:05.435 +05:30 [INF] Hosting environment: Development
+2024-01-09 13:06:05.436 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 13:06:08.705 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 13:06:08.794 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:06:09.084 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Not authenticated
+2024-01-09 13:06:09.140 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:06:09.204 +05:30 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 13:06:09.217 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-09 13:06:09.219 +05:30 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2024-01-09 13:06:09.223 +05:30 [INF] Executing ChallengeResult with authentication schemes ([]).
+2024-01-09 13:06:10.390 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-01-09 13:06:10.403 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 1189.8992ms
+2024-01-09 13:06:10.417 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:06:10.430 +05:30 [INF] Response:
+StatusCode: 302
+Location: https://login.microsoftonline.com/999d5e4e-b16b-4eaf-aa97-ac9afa915c91/oauth2/v2.0/authorize?client_id=c9484aae-d7d9-4d03-9f2d-a884c7ae8355&redirect_uri=https%3A%2F%2Flocalhost%3A7196%2Fsignin-oidc&response_type=code&scope=openid%20profile%20offline_access%20user.read&code_challenge=lcGMg9z57rxLjBktL5a5Br6Yar66VzlKEBUJ0Vd9XFA&code_challenge_method=S256&response_mode=form_post&nonce=638403825703737086.MjZkYjRkOTItYmFhOC00NTE4LTgyZWItYjljNzc0OGRhMDg1NjE4YjdjMGQtM2E0NS00MTgxLWEyYWEtMWE2ZjVjYzM2YTFh&client_info=1&x-client-brkrver=IDWeb.2.16.0.0&state=CfDJ8GRntl1LsLlCumk5FaBHS01g2WJnOld5UX7IcjtTSu60NhH9kFn7jqzrjFsFvDMtQ_IuWulTdcunp2epfmxFlvRPdhzvpapxh5Ri-tiRynTWrQCxwwE-ToE4tJCKB1MfH63OxEbBMAHimncksy7f-QHjvbUk93QarBh3VXi5DyH2_vor_NvEQDgWFlxwAaUCCHKLuy0ErqxgiylsRKYLWwaiTvbmrW1hqDD0rPYr613Hly1HpHoxTAXSv7UzYEN2O7aoRPSD_dVLw8QTsCFGyQBerStCqhSr_AA5tgk5abacvct5XcDFvqPLK0E-CBuGPVU_eNDpUYOYN9CRml_7QybPfjqjSeNYDnTGi0yP5LM4nLO3K13WZdOzOb5JAG0wLA&x-client-SKU=ID_NET6_0&x-client-ver=7.0.3.0
+Set-Cookie: [Redacted]
+2024-01-09 13:06:10.436 +05:30 [INF] HTTP GET / responded 302 in 1651.8554 ms
+2024-01-09 13:06:10.463 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 302 0 - 1770.6063ms
+2024-01-09 13:10:13.584 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 13:10:14.063 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 13:10:14.065 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 13:10:14.072 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 13:10:14.073 +05:30 [INF] Hosting environment: Development
+2024-01-09 13:10:14.074 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 13:10:16.742 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 13:10:16.823 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:10:17.206 +05:30 [INF] Error from RemoteAuthentication: OpenIdConnectAuthenticationHandler: message.State is null or empty..
+2024-01-09 13:10:17.218 +05:30 [ERR] HTTP GET / responded 500 in 398.0329 ms
+System.Exception: An error was encountered while handling the remote login.
+ ---> System.Exception: OpenIdConnectAuthenticationHandler: message.State is null or empty.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-09 13:10:17.300 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: An error was encountered while handling the remote login.
+ ---> System.Exception: OpenIdConnectAuthenticationHandler: message.State is null or empty.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-09 13:10:17.619 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 500 - text/html;+charset=utf-8 887.1575ms
+2024-01-09 13:10:17.619 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 13:10:17.619 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 13:10:17.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 16.6827ms
+2024-01-09 13:10:17.704 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.7152ms
+2024-01-09 13:15:25.857 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 13:15:26.301 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 13:15:26.302 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 13:15:26.308 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 13:15:26.310 +05:30 [INF] Hosting environment: Development
+2024-01-09 13:15:26.312 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 13:15:29.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 13:15:29.647 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:15:29.992 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Not authenticated
+2024-01-09 13:15:30.043 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 13:15:30.048 +05:30 [INF] HTTP GET / responded 404 in 413.3948 ms
+2024-01-09 13:15:30.083 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 621.0276ms
+2024-01-09 13:16:33.465 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 13:16:33.900 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 13:16:33.902 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 13:16:33.907 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 13:16:33.909 +05:30 [INF] Hosting environment: Development
+2024-01-09 13:16:33.909 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 13:16:37.178 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 13:16:37.280 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:16:37.602 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Not authenticated
+2024-01-09 13:16:37.654 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:16:37.716 +05:30 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 13:16:37.731 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-09 13:16:37.733 +05:30 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2024-01-09 13:16:37.738 +05:30 [INF] Executing ChallengeResult with authentication schemes ([]).
+2024-01-09 13:16:38.841 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-01-09 13:16:38.855 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 1129.8253ms
+2024-01-09 13:16:38.862 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:16:38.868 +05:30 [INF] Response:
+StatusCode: 302
+Location: https://login.microsoftonline.com/999d5e4e-b16b-4eaf-aa97-ac9afa915c91/oauth2/v2.0/authorize?client_id=c9484aae-d7d9-4d03-9f2d-a884c7ae8355&redirect_uri=https%3A%2F%2Flocalhost%3A7196%2Fsignin-oidc&response_type=code&scope=openid%20profile%20offline_access%20user.read&code_challenge=uXLUz_KUftsxjFUc00Gf2Ys8S2uPDp8jxZWPQgbdPJE&code_challenge_method=S256&response_mode=form_post&nonce=638403831988190110.MDY4MDIxYjEtZTYwYS00NjkwLThkMjktZTQwNzJjNWZiYzAwYjIyMDc5NTQtNmFjNC00MWFiLThjM2YtODllN2I5ZWMxMjFm&client_info=1&x-client-brkrver=IDWeb.2.16.0.0&state=CfDJ8GRntl1LsLlCumk5FaBHS034B1GkxCQP-sJDBiCoyPuV7XnHbXX1D6L3P1skcNdtMWwGzqxTNlJGL5vA_rktCYLG6XEG_UXruHa37m6YLLEo4TU45MjsFJF9aIqVjSrqroL5Z900jp_V8Vqvab-DTlYpx_X9Zc2R2JwC37DbJLqhWnut0M6PVQ3Nbx58jpxGpbym4_kWEMFw59YnfsdQu2KSund8qghYT0yIUJg9_AxIhTc88HTBJ50FoPzD55ddg7P94-P4Y_5B0i1u-y19LS380qQvPpLzetxrGa4YaG_53lyPQgnDFSfjXAtBakUDbSgYxuAX9pC7dxMGeJYzZS9u51hvnrqQxBT542R7UoUnzrEs10_66X1-qiRZkN3XSA&x-client-SKU=ID_NET6_0&x-client-ver=7.0.3.0
+Set-Cookie: [Redacted]
+2024-01-09 13:16:38.874 +05:30 [INF] HTTP GET / responded 302 in 1602.5005 ms
+2024-01-09 13:16:38.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 302 0 - 1740.0049ms
+2024-01-09 13:17:11.959 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/signin-oidc application/x-www-form-urlencoded 1759
+2024-01-09 13:17:11.973 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /signin-oidc
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 1759
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:17:12.184 +05:30 [INF] [MsIdWeb] An error occured during token acquisition: IDW10501: Exception acquiring token for a confidential client. 
+System.ArgumentException: IDW10109: All client certificates passed to the configuration have expired or can't be loaded.  (Parameter 'clientCredentials')
+   at Microsoft.Identity.Web.ConfidentialClientApplicationBuilderExtension.WithClientCredentials(ConfidentialClientApplicationBuilder builder, IEnumerable`1 clientCredentials, ILogger logger, ICredentialsLoader credentialsLoader, CredentialSourceLoaderParameters credentialSourceLoaderParameters)
+   at Microsoft.Identity.Web.TokenAcquisition.BuildConfidentialClientApplication(MergedOptions mergedOptions)
+2024-01-09 13:17:12.243 +05:30 [ERR] Exception occurred while processing message.
+System.ArgumentException: IDW10109: All client certificates passed to the configuration have expired or can't be loaded.  (Parameter 'clientCredentials')
+   at Microsoft.Identity.Web.ConfidentialClientApplicationBuilderExtension.WithClientCredentials(ConfidentialClientApplicationBuilder builder, IEnumerable`1 clientCredentials, ILogger logger, ICredentialsLoader credentialsLoader, CredentialSourceLoaderParameters credentialSourceLoaderParameters)
+   at Microsoft.Identity.Web.TokenAcquisition.BuildConfidentialClientApplication(MergedOptions mergedOptions)
+   at Microsoft.Identity.Web.TokenAcquisition.GetOrBuildConfidentialClientApplication(MergedOptions mergedOptions)
+   at Microsoft.Identity.Web.TokenAcquisition.AddAccountToCacheFromAuthorizationCodeAsync(AuthCodeRedemptionParameters authCodeRedemptionParameters)
+   at Microsoft.Identity.Web.TokenAcquisitionAspNetCore.AddAccountToCacheFromAuthorizationCodeAsync(AuthorizationCodeReceivedContext context, IEnumerable`1 scopes, String authenticationScheme)
+   at Microsoft.Identity.Web.MicrosoftIdentityWebAppAuthenticationBuilder.<>c__DisplayClass11_1.<<WebAppCallsWebApiImplementation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RunAuthorizationCodeReceivedEventAsync(OpenIdConnectMessage authorizationResponse, ClaimsPrincipal user, AuthenticationProperties properties, JwtSecurityToken jwt)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+2024-01-09 13:17:12.257 +05:30 [INF] Error from RemoteAuthentication: IDW10109: All client certificates passed to the configuration have expired or can't be loaded.  (Parameter 'clientCredentials').
+2024-01-09 13:17:12.259 +05:30 [ERR] HTTP POST /signin-oidc responded 500 in 286.7558 ms
+System.Exception: An error was encountered while handling the remote login.
+ ---> System.ArgumentException: IDW10109: All client certificates passed to the configuration have expired or can't be loaded.  (Parameter 'clientCredentials')
+   at Microsoft.Identity.Web.ConfidentialClientApplicationBuilderExtension.WithClientCredentials(ConfidentialClientApplicationBuilder builder, IEnumerable`1 clientCredentials, ILogger logger, ICredentialsLoader credentialsLoader, CredentialSourceLoaderParameters credentialSourceLoaderParameters)
+   at Microsoft.Identity.Web.TokenAcquisition.BuildConfidentialClientApplication(MergedOptions mergedOptions)
+   at Microsoft.Identity.Web.TokenAcquisition.GetOrBuildConfidentialClientApplication(MergedOptions mergedOptions)
+   at Microsoft.Identity.Web.TokenAcquisition.AddAccountToCacheFromAuthorizationCodeAsync(AuthCodeRedemptionParameters authCodeRedemptionParameters)
+   at Microsoft.Identity.Web.TokenAcquisitionAspNetCore.AddAccountToCacheFromAuthorizationCodeAsync(AuthorizationCodeReceivedContext context, IEnumerable`1 scopes, String authenticationScheme)
+   at Microsoft.Identity.Web.MicrosoftIdentityWebAppAuthenticationBuilder.<>c__DisplayClass11_1.<<WebAppCallsWebApiImplementation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RunAuthorizationCodeReceivedEventAsync(OpenIdConnectMessage authorizationResponse, ClaimsPrincipal user, AuthenticationProperties properties, JwtSecurityToken jwt)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-09 13:17:12.273 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: An error was encountered while handling the remote login.
+ ---> System.ArgumentException: IDW10109: All client certificates passed to the configuration have expired or can't be loaded.  (Parameter 'clientCredentials')
+   at Microsoft.Identity.Web.ConfidentialClientApplicationBuilderExtension.WithClientCredentials(ConfidentialClientApplicationBuilder builder, IEnumerable`1 clientCredentials, ILogger logger, ICredentialsLoader credentialsLoader, CredentialSourceLoaderParameters credentialSourceLoaderParameters)
+   at Microsoft.Identity.Web.TokenAcquisition.BuildConfidentialClientApplication(MergedOptions mergedOptions)
+   at Microsoft.Identity.Web.TokenAcquisition.GetOrBuildConfidentialClientApplication(MergedOptions mergedOptions)
+   at Microsoft.Identity.Web.TokenAcquisition.AddAccountToCacheFromAuthorizationCodeAsync(AuthCodeRedemptionParameters authCodeRedemptionParameters)
+   at Microsoft.Identity.Web.TokenAcquisitionAspNetCore.AddAccountToCacheFromAuthorizationCodeAsync(AuthorizationCodeReceivedContext context, IEnumerable`1 scopes, String authenticationScheme)
+   at Microsoft.Identity.Web.MicrosoftIdentityWebAppAuthenticationBuilder.<>c__DisplayClass11_1.<<WebAppCallsWebApiImplementation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RunAuthorizationCodeReceivedEventAsync(OpenIdConnectMessage authorizationResponse, ClaimsPrincipal user, AuthenticationProperties properties, JwtSecurityToken jwt)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-09 13:17:12.502 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/signin-oidc application/x-www-form-urlencoded 1759 - 500 - text/html;+charset=utf-8 543.3576ms
+2024-01-09 13:17:12.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 13:17:12.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 13:17:12.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 8.2885ms
+2024-01-09 13:17:12.609 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.0344ms
+2024-01-09 13:22:40.569 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 13:22:41.129 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 13:22:41.131 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 13:22:41.137 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 13:22:41.139 +05:30 [INF] Hosting environment: Development
+2024-01-09 13:22:41.140 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 13:22:44.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 13:22:44.663 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:22:44.769 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:22:44.874 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 13:23:31.944 +05:30 [INF] index1
+2024-01-09 13:23:34.038 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 13:23:34.633 +05:30 [INF] Executed ViewResult - view Index executed in 595.4226ms.
+2024-01-09 13:23:34.657 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 49778.1614ms
+2024-01-09 13:23:34.660 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:23:34.670 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 07:53:34 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-09 13:23:34.681 +05:30 [INF] HTTP GET / responded 200 in 50030.7285 ms
+2024-01-09 13:23:34.760 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 13:23:34.760 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 13:23:34.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 19.9292ms
+2024-01-09 13:23:34.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 50313.5719ms
+2024-01-09 13:23:34.810 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.2299ms
+2024-01-09 13:23:34.968 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 13:23:34.969 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 13:23:34.975 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 13:23:34.976 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 7.1519 ms
+2024-01-09 13:23:34.980 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 11.4697ms
+2024-01-09 13:23:45.903 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 13:23:45.905 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 13:23:45.910 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 13:23:45.911 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 13:23:45.912 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 13:23:45.914 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 9.5459 ms
+2024-01-09 13:23:45.917 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 13.5368ms
+2024-01-09 13:23:45.997 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 13:23:46.000 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 07:53:45 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 13:23:46.004 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 93.0738 ms
+2024-01-09 13:23:46.033 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 122.9546ms
+2024-01-09 13:23:51.363 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 216
+2024-01-09 13:23:51.387 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 216
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:23:51.389 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:23:51.429 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SUSS.DOM.Entities.LoginModel) on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 13:23:52.847 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I.
+2024-01-09 13:23:52.849 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 1417.9166ms
+2024-01-09 13:23:52.851 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 13:23:52.853 +05:30 [INF] Session started; Key:84445ed4-031f-8fb1-e991-7f41854b4594, Id:b45639d4-5126-0556-b662-ecc0c8e61369
+2024-01-09 13:23:52.856 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I
+2024-01-09 13:23:52.857 +05:30 [INF] HTTP POST / responded 302 in 1470.4304 ms
+2024-01-09 13:23:52.860 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 216 - 302 0 - 1497.3668ms
+2024-01-09 13:23:52.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I - -
+2024-01-09 13:23:52.874 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-09 13:23:52.878 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-09 13:23:52.885 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(System.String) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-09 13:23:52.991 +05:30 [INF] Executing ViewResult, running view CunsultancyType.
+2024-01-09 13:23:53.033 +05:30 [INF] Executed ViewResult - view CunsultancyType executed in 42.1187ms.
+2024-01-09 13:23:53.036 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 148.3631ms
+2024-01-09 13:23:53.037 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-09 13:23:53.039 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 07:53:52 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-09 13:23:53.040 +05:30 [INF] HTTP GET /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I responded 200 in 165.9067 ms
+2024-01-09 13:23:53.045 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I - - - 200 - text/html;+charset=utf-8 173.8120ms
+2024-01-09 13:23:53.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 13:23:53.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 13:23:53.053 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.7295ms
+2024-01-09 13:23:53.121 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 13:23:53.132 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 13:23:53.180 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 13:23:53.186 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 54.6948 ms
+2024-01-09 13:23:53.192 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 140.3041ms
+2024-01-09 13:23:53.200 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 79.4123ms
+2024-01-09 13:23:53.216 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 13:23:53.219 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 13:23:53.221 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 13:23:53.222 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 3.2787 ms
+2024-01-09 13:23:53.226 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 10.2010ms
+2024-01-09 13:23:53.271 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 13:23:53.272 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 13:23:53.300 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 13:23:53.309 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 07:53:53 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 13:23:53.312 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 39.3288 ms
+2024-01-09 13:23:53.314 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 42.8469ms
+2024-01-09 13:23:56.374 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I application/x-www-form-urlencoded 227
+2024-01-09 13:23:56.377 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 227
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 13:23:56.382 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-09 13:23:56.391 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(SussBookingAppointment.ViewModel.CunsultancyTypeViewModel) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-09 13:23:56.414 +05:30 [INF] Executing RedirectResult, redirecting to https://outlook.office365.com/owa/calendar/SUSS@espire.com/bookings/.
+2024-01-09 13:23:56.416 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 20.9012ms
+2024-01-09 13:23:56.418 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-09 13:23:56.419 +05:30 [INF] Response:
+StatusCode: 301
+Location: https://outlook.office365.com/owa/calendar/SUSS@espire.com/bookings/
+2024-01-09 13:23:56.420 +05:30 [INF] HTTP POST /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I responded 301 in 43.1973 ms
+2024-01-09 13:23:56.422 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03N3WzgHiYJTSVvgHL1cr_7N2c2syTgpkeSgreUoDD2EErd04E4XaXJInsmYBZngkjH3-YHrqFDQ8utWlfjnyN-l-sEI7dIcJ54tyyVbGtEs_PkNSHz5FqiXSdhGyXHo1I application/x-www-form-urlencoded 227 - 301 0 - 48.3282ms

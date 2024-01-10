@@ -1,0 +1,127 @@
+﻿@model UsersDetail
+
+<div class="row">
+    <div class="form-group col-md-4">
+        <label asp-for="FullName" class="control-label"></label>
+        <input asp-for="FullName" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="PINumber" class="control-label"></label>
+        <input asp-for="PINumber" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="PINumber" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="NRICFIN" class="control-label"></label>
+        <input asp-for="NRICFIN" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="NRICFIN" class="text-danger"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col-md-4">
+        <label asp-for="Race" class="control-label"></label>
+        <input asp-for="Race" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="Race" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="Gender" class="control-label"></label>
+        <select asp-for="Gender" class="form-control" disabled>
+            <option value="1" disabled>Male</option>
+            <option value="2" disabled>Female</option>
+        </select>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="Ethnicity" class="control-label"></label>
+        <input asp-for="Ethnicity" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="Ethnicity" class="text-danger"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col-md-4">
+        <label asp-for="Religion" class="control-label"></label>
+        <input asp-for="Religion" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="Religion" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="Nationality" class="control-label"></label>
+        <input asp-for="Nationality" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="Nationality" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="MaritalStatus" class="control-label"></label>
+        <select asp-for="MaritalStatus" class="form-control" disabled>
+            <option value="Yes" disabled>Yes</option>
+            <option value="No" disabled>No</option>
+        </select>
+        <span asp-validation-for="MaritalStatus" class="text-danger"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col-md-4">
+        <label asp-for="HighestQualification" class="control-label"></label>
+        <input asp-for="HighestQualification" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="HighestQualification" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="EnrolmentYearSem" class="control-label"></label>
+        <input asp-for="EnrolmentYearSem" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="EnrolmentYearSem" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="School" class="control-label"></label>
+        <input asp-for="School" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="School" class="text-danger"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col-md-4">
+        <label asp-for="StudyMode" class="control-label"></label>
+        <input asp-for="StudyMode" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="StudyMode" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="ProgramName" class="control-label"></label>
+        <input asp-for="ProgramName" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="ProgramName" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="ProgramCode" class="control-label"></label>
+        <input asp-for="ProgramCode" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="ProgramCode" class="text-danger"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col-md-4">
+        <label asp-for="ProgramStatus" class="control-label"></label>
+        <input asp-for="ProgramStatus" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="ProgramStatus" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="JoinedIntake" class="control-label"></label>
+        <input asp-for="JoinedIntake" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="JoinedIntake" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="MobileNo" class="control-label"></label>
+        <input asp-for="MobileNo" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="MobileNo" class="text-danger"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col-md-4">
+        <label asp-for="MyEmailID" class="control-label"></label>
+        <input asp-for="MyEmailID" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="MyEmailID" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="EmailAddress" class="control-label"></label>
+        <input asp-for="EmailAddress" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="EmailAddress" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-4">
+        <label asp-for="NextKin" class="control-label"></label>
+        <input asp-for="NextKin" class="form-control" disabled readonly="readonly" />
+        <span asp-validation-for="NextKin" class="text-danger"></span>
+    </div>
+</div>

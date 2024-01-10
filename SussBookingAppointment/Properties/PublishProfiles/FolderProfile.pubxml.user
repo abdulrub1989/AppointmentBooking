@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-12-12T08:23:46.3212255Z;True|2023-12-12T12:56:17.0327242+05:30;True|2023-12-12T12:40:30.6473950+05:30;True|2023-11-15T19:45:36.5387155+05:30;True|2023-11-14T08:53:59.0399183+05:30;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DbConnection">
+      <Value>Data Source=%28localdb%29\ProjectModels%3bInitial Catalog=SUSSBooking%3bIntegrated Security=True</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DbConnection_temp">
+      <Value>Data Source=%28localdb%29\ProjectModels%3bInitial Catalog=SUSSBooking%3bIntegrated Security=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

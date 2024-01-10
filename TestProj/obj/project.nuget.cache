@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bYiC6wqiupISPrARXqH7Qg+kKTGA6EotDxTXBOUXb5l21DcEoZQXWcxEGOAAKgaueUlZzTKHxzqGoj30aRmPzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\TestProj\\TestProj.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abdul.rub\\.nuget\\packages\\microsoft.identity.client\\4.58.1\\microsoft.identity.client.4.58.1.nupkg.sha512",
+    "C:\\Users\\abdul.rub\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "C:\\Users\\abdul.rub\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\abdul.rub\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

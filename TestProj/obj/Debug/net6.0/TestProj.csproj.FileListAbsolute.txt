@@ -1,0 +1,38 @@
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.exe
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.deps.json
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.runtimeconfig.json
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.pdb
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.csproj.AssemblyReference.cache
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.AssemblyInfoInputs.cache
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.AssemblyInfo.cs
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.csproj.CoreCompileInputs.cache
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\refint\TestProj.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.pdb
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.genruntimeconfig.cache
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\ref\TestProj.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.csproj.CopyComplete
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.exe
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.deps.json
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.runtimeconfig.json
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\TestProj.pdb
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.csproj.AssemblyReference.cache
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.AssemblyInfoInputs.cache
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.AssemblyInfo.cs
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.csproj.CoreCompileInputs.cache
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.csproj.CopyComplete
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\refint\TestProj.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.pdb
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\TestProj.genruntimeconfig.cache
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\TestProj\obj\Debug\net6.0\ref\TestProj.dll

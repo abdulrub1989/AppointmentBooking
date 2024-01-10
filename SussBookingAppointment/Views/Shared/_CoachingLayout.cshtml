@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "_BookingLayout";
+}
+@section Scripts {    
+    @RenderSection("Scripts", required:false)   
+}
+@section Style {  
+    <style>
+        #progressbar li {
+            width: 32% !important;
+        }
+
+        @@media only screen and (max-width: 600px) {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+        .text-left {
+            text-align: left !important;
+        }
+    </style>
+    @RenderSection("Style", required:false)
+}
+<div class="row justify-content-center">
+    <div class="col-lg-12 col-md-10 col-sm-12 text-center p-0 mt-3 mb-2">
+        <div class="card shadow mb-4 px-0 pt-4 pb-0 mt-3 mb-3">
+            <div class="pt-4">
+                <ul id="progressbar">
+                    <li id="formD" class="fa fa-lock"><span>FormD1</span></li>
+                    <li id="formN" class="fa fa-check"><span>Form N</span></li>
+                    <li id="formO" class="fa fa-check"><span>Form O</span></li>
+                </ul>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+</div>
+<div class="modal" id="myModalloading" style="display:hide;">
+    <div class="loading loading04">
+        <span>L</span>
+        <span>O</span>
+        <span>A</span>
+        <span>D</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+    </div>
+</div>

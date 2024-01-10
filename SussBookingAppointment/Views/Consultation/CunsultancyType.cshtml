@@ -1,0 +1,50 @@
+﻿@model CunsultancyTypeViewModel
+<div>
+    <div class="form consultation-form">
+        <h2 class="text-center">C-three (Counselling and Life coaching)</h2>
+        <p class="text-center">
+            We provide free counselling and life coaching for current SUSS undergraduates
+            & postgraduates. Sessions are held on campus/online. Reschedule or Cancellation requests, should
+            be made with at least 24 hours notice.
+        </p>
+
+        <div class="cell small-12 text-center">
+            <h2>Booking Instructions:</h2>
+            <div class="arrows">
+                <div class="arrow step1">
+                    <span>
+                        1. Step<br>Submit Registration forms. Bookings without registration form(s) will
+                        not be confirmed. (links found below)
+                    </span>
+                </div>
+                <div class="arrow step2">
+                    <span>2. Step<br>Book an appointment time. (select "See Times" button)</span>
+                </div>
+
+            </div>
+
+            <p class="note-text">
+                <b>Note:</b> For urgent bookings, registration forms must be submitted at
+                least
+                2 hours
+                before appointment time and before 5.30 PM (admin working hours).
+            </p>
+        </div>
+        <form asp-action="CunsultancyType" class="text-left">
+            @Html.HiddenFor(x=> x.EmailID)
+            <div class="cell small-12">
+                <label class="required">Consultancy Type</label>
+                <select class="form-control" required asp-for="CunsultancyID" asp-items="Model.CunsultancyTypes">
+                </select>
+            </div>
+
+            <div>
+                <fieldset class="cell text-center consult-btn">
+                    <button type="submit" id="btnsave" class="button">
+                        Next
+                    </button>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</div>

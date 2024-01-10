@@ -1,0 +1,26 @@
+﻿@model FormDViewModel
+@{
+    ViewData["Title"] = "CunsultancyType";
+    int type = Convert.ToInt32(TempData["type"]);
+    Layout = type == 3 ? "_CoachingLayout" : "_CounsellingLayout";
+    TempData.Keep("type");
+}
+<div class="card-body text-left" style="margin-top:15px;">
+    
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-sm-12">
+                If you already Create an account use that account to @Html.ActionLink("sign in", "Index", "Home").
+            </div>
+        </div>
+    @await Html.PartialAsync("_UserDetails", Model.UsersDetail)
+        <hr />
+    @{
+        ViewData["UserID"] = Model.UsersDetail.UserID;
+        @await Html.PartialAsync("_ManualFormD", new UserRegistration())
+    }
+</div>
+@section Scripts {
+    <script>
+        $('#formD').addClass('active');
+    </script>
+}

@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "_BookingLayout";
+}
+@section Scripts {
+    @RenderSection("Scripts", required:false)
+}
+@section Style {
+    <style type="text/css">
+
+        @@media only screen and (max-width: 600px) {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .text-left {
+            text-align: left !important;
+        }
+    </style>
+    @RenderSection("Style", required:false)
+}
+<div class="grid-container">
+    <div>
+        <div class="form consultation-form">
+            <div class="formbold-steps">
+                <ul>
+                    <li class="formbold-step-menu1 active" id="formD">
+                        <span>1</span>
+                        Form D1
+                    </li>
+                    <li class="formbold-step-menu2" id="formM">
+                        <span>2</span>
+                        Form M
+                    </li>
+
+                </ul>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+2024-01-09 12:49:37.241 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 12:49:37.759 +05:30 [INF] Now listening on: http://localhost:5000
+2024-01-09 12:49:37.760 +05:30 [INF] Now listening on: https://localhost:5001
+2024-01-09 12:49:37.765 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 12:49:37.767 +05:30 [INF] Hosting environment: Development
+2024-01-09 12:49:37.768 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\bin\Debug\net6.0\
+2024-01-09 12:52:37.845 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 12:52:38.128 +05:30 [INF] Now listening on: http://localhost:5000
+2024-01-09 12:52:38.129 +05:30 [INF] Now listening on: https://localhost:5001
+2024-01-09 12:52:38.133 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 12:52:38.134 +05:30 [INF] Hosting environment: Development
+2024-01-09 12:52:38.134 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\bin\Debug\net6.0\

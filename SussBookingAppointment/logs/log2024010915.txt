@@ -1,0 +1,1280 @@
+2024-01-09 15:27:26.244 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 15:27:26.730 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 15:27:26.730 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 15:27:26.736 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 15:27:26.738 +05:30 [INF] Hosting environment: Development
+2024-01-09 15:27:26.740 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 15:27:29.696 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 15:27:29.853 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:27:29.955 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:27:30.176 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 15:27:34.667 +05:30 [INF] index1
+2024-01-09 15:27:34.719 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:27:35.245 +05:30 [INF] Executed ViewResult - view Index executed in 531.6905ms.
+2024-01-09 15:27:35.264 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 5084.2294ms
+2024-01-09 15:27:35.267 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:27:35.275 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 09:57:34 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-09 15:27:35.281 +05:30 [INF] HTTP GET / responded 200 in 5437.1981 ms
+2024-01-09 15:27:35.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 5691.6831ms
+2024-01-09 15:27:35.404 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:27:35.420 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:27:35.460 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 55.6461ms
+2024-01-09 15:27:35.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 98.5102ms
+2024-01-09 15:27:35.572 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:27:35.573 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:27:35.581 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:27:35.582 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 9.2172 ms
+2024-01-09 15:27:35.586 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 13.6713ms
+2024-01-09 15:27:46.466 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:27:46.467 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:27:46.469 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:27:46.469 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:27:46.473 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:27:46.474 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 6.9222 ms
+2024-01-09 15:27:46.477 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 11.0474ms
+2024-01-09 15:27:46.515 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:27:46.517 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 09:57:45 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:27:46.518 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 48.3677 ms
+2024-01-09 15:27:46.519 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 50.5283ms
+2024-01-09 15:28:06.911 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Booking/GetAllMeetings - -
+2024-01-09 15:28:06.913 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Booking/GetAllMeetings
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:28:06.914 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:28:06.915 +05:30 [INF] HTTP GET /Booking/GetAllMeetings responded 404 in 2.1923 ms
+2024-01-09 15:28:06.916 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Booking/GetAllMeetings - - - 404 0 - 5.4338ms
+2024-01-09 15:28:32.117 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Booking/Index - -
+2024-01-09 15:28:32.126 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Booking/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:28:32.129 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:28:32.133 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-09 15:31:22.934 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 15:31:23.410 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 15:31:23.410 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 15:31:23.417 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 15:31:23.418 +05:30 [INF] Hosting environment: Development
+2024-01-09 15:31:23.419 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 15:31:25.760 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 15:31:25.849 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:31:25.950 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:31:26.034 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 15:31:32.435 +05:30 [INF] index1
+2024-01-09 15:31:32.459 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:31:32.799 +05:30 [INF] Executed ViewResult - view Index executed in 340.5265ms.
+2024-01-09 15:31:32.814 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 6776.1179ms
+2024-01-09 15:31:32.817 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:31:32.825 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:01:31 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-09 15:31:32.831 +05:30 [INF] HTTP GET / responded 200 in 6986.1100 ms
+2024-01-09 15:31:32.883 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:31:32.883 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:31:32.883 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 7124.9498ms
+2024-01-09 15:31:32.901 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 18.7249ms
+2024-01-09 15:31:32.918 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.0191ms
+2024-01-09 15:31:33.010 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:31:33.081 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:31:33.092 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:31:33.093 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 11.9256 ms
+2024-01-09 15:31:33.096 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 85.7325ms
+2024-01-09 15:31:43.954 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:31:43.955 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:31:43.960 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:31:43.961 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:31:43.961 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:31:43.962 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 7.6854 ms
+2024-01-09 15:31:43.964 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 10.7544ms
+2024-01-09 15:31:43.997 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:31:43.999 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:01:43 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:31:44.000 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 38.7012 ms
+2024-01-09 15:31:44.004 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 43.5856ms
+2024-01-09 15:31:51.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/booking/index - -
+2024-01-09 15:31:51.281 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /booking/index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:31:51.282 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:31:51.286 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-09 15:31:54.271 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:31:54.297 +05:30 [INF] Executed ViewResult - view Index executed in 26.4795ms.
+2024-01-09 15:31:54.300 +05:30 [INF] Executed action SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment) in 3011.6285ms
+2024-01-09 15:31:54.301 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:31:54.303 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:01:53 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-09 15:31:54.303 +05:30 [INF] HTTP GET /booking/index responded 200 in 3022.8175 ms
+2024-01-09 15:31:54.306 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/booking/index - - - 200 - text/html;+charset=utf-8 3027.0495ms
+2024-01-09 15:31:54.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:31:54.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:31:54.316 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.6254ms
+2024-01-09 15:31:54.324 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.7588ms
+2024-01-09 15:31:54.358 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:31:54.359 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:31:54.361 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:31:54.362 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 3.2981 ms
+2024-01-09 15:31:54.364 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 6.4274ms
+2024-01-09 15:31:54.377 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:31:54.378 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:31:54.380 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:31:54.381 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.7624 ms
+2024-01-09 15:31:54.383 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 6.1161ms
+2024-01-09 15:31:54.431 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:31:54.432 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:31:54.441 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:31:54.451 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:01:54 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:31:54.452 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 20.1296 ms
+2024-01-09 15:31:54.462 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 30.8548ms
+2024-01-09 15:37:18.462 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 15:37:18.937 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 15:37:18.938 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 15:37:18.943 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 15:37:18.944 +05:30 [INF] Hosting environment: Development
+2024-01-09 15:37:18.945 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 15:37:21.600 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 15:37:21.752 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:37:21.876 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:37:21.979 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 15:37:22.609 +05:30 [INF] index1
+2024-01-09 15:37:22.641 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:37:23.125 +05:30 [INF] Executed ViewResult - view Index executed in 483.1497ms.
+2024-01-09 15:37:23.143 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 1161.8608ms
+2024-01-09 15:37:23.145 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:37:23.153 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:07:22 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-09 15:37:23.161 +05:30 [INF] HTTP GET / responded 200 in 1414.2854 ms
+2024-01-09 15:37:23.215 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:37:23.215 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:37:23.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 1629.5218ms
+2024-01-09 15:37:23.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 10.6419ms
+2024-01-09 15:37:23.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.1313ms
+2024-01-09 15:37:23.329 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:37:23.330 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:37:23.337 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:37:23.339 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 8.4344 ms
+2024-01-09 15:37:23.344 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 14.4904ms
+2024-01-09 15:37:34.307 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:37:34.308 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:37:34.309 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:37:34.309 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:37:34.314 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:37:34.315 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 6.0610 ms
+2024-01-09 15:37:34.317 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 9.9041ms
+2024-01-09 15:37:34.339 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:37:34.342 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:07:33 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:37:34.343 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 33.8888 ms
+2024-01-09 15:37:34.345 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 36.5638ms
+2024-01-09 15:37:38.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/booking/index - -
+2024-01-09 15:37:38.114 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /booking/index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:37:38.116 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:37:38.120 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-09 15:37:52.221 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:37:52.230 +05:30 [INF] Executed action SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment) in 14107.815ms
+2024-01-09 15:37:52.232 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:37:52.234 +05:30 [ERR] HTTP GET /booking/index responded 500 in 14120.1301 ms
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'SUSS.DOM.Bookings.MeetingData', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[SUSS.DOM.Bookings.MeetingData]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method128(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-09 15:37:52.312 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'SUSS.DOM.Bookings.MeetingData', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[SUSS.DOM.Bookings.MeetingData]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method128(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-09 15:37:52.383 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/booking/index - - - 500 - text/html;+charset=utf-8 14271.0128ms
+2024-01-09 15:37:52.395 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:37:52.395 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:37:52.396 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.5195ms
+2024-01-09 15:37:52.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.9074ms
+2024-01-09 15:39:30.008 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 15:39:30.344 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 15:39:30.345 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 15:39:30.349 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 15:39:30.350 +05:30 [INF] Hosting environment: Development
+2024-01-09 15:39:30.350 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 15:39:32.662 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 15:39:32.724 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:39:32.780 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:39:32.843 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 15:39:33.615 +05:30 [INF] index1
+2024-01-09 15:39:33.640 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:39:34.002 +05:30 [INF] Executed ViewResult - view Index executed in 365.0415ms.
+2024-01-09 15:39:34.019 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 1173.6995ms
+2024-01-09 15:39:34.022 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:39:34.030 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:09:33 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-09 15:39:34.037 +05:30 [INF] HTTP GET / responded 200 in 1314.5709 ms
+2024-01-09 15:39:34.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:39:34.090 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 1435.1452ms
+2024-01-09 15:39:34.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:39:34.099 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 13.4056ms
+2024-01-09 15:39:34.163 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.3832ms
+2024-01-09 15:39:34.213 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:39:34.214 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:39:34.221 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:39:34.222 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 8.2200 ms
+2024-01-09 15:39:34.225 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 12.5243ms
+2024-01-09 15:39:42.133 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/booking/index - -
+2024-01-09 15:39:42.134 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /booking/index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:39:42.138 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:39:42.141 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-09 15:39:45.872 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:39:45.873 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:39:45.876 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:39:45.882 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 8.6680 ms
+2024-01-09 15:39:45.884 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 11.9445ms
+2024-01-09 15:39:45.923 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:39:45.924 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:39:45.990 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:39:45.992 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:09:45 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:39:45.993 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 69.0774 ms
+2024-01-09 15:39:45.994 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 71.5361ms
+2024-01-09 15:39:46.229 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:39:46.235 +05:30 [INF] Executed action SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment) in 4092.5217ms
+2024-01-09 15:39:46.237 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:39:46.242 +05:30 [ERR] HTTP GET /booking/index responded 500 in 4107.3980 ms
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'SUSS.DOM.Bookings.MeetingData', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[SUSS.DOM.Bookings.MeetingData]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method128(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-09 15:39:46.324 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'SUSS.DOM.Bookings.MeetingData', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[SUSS.DOM.Bookings.MeetingData]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method128(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-09 15:39:46.397 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/booking/index - - - 500 - text/html;+charset=utf-8 4264.5309ms
+2024-01-09 15:39:46.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:39:46.411 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:39:46.412 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.3225ms
+2024-01-09 15:39:46.418 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.8210ms
+2024-01-09 15:39:50.108 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/booking/index - -
+2024-01-09 15:39:50.111 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /booking/index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:39:50.113 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:39:50.114 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-09 15:40:06.723 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:40:06.736 +05:30 [INF] Executed action SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment) in 16620.7672ms
+2024-01-09 15:40:06.737 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:40:06.739 +05:30 [ERR] HTTP GET /booking/index responded 500 in 16628.2496 ms
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'SUSS.DOM.Bookings.MeetingData', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[SUSS.DOM.Bookings.MeetingData]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method128(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-09 15:40:06.747 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'SUSS.DOM.Bookings.MeetingData', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[SUSS.DOM.Bookings.MeetingData]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method128(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-09 15:40:06.770 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/booking/index - - - 500 - text/html;+charset=utf-8 16661.9144ms
+2024-01-09 15:40:06.779 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:40:06.780 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:40:06.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.6119ms
+2024-01-09 15:40:06.808 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0026ms
+2024-01-09 15:41:54.288 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 15:41:54.643 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 15:41:54.644 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 15:41:54.649 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 15:41:54.650 +05:30 [INF] Hosting environment: Development
+2024-01-09 15:41:54.650 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 15:41:57.303 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 15:41:57.372 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:41:57.445 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:41:57.513 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 15:41:58.295 +05:30 [INF] index1
+2024-01-09 15:41:58.326 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:41:58.698 +05:30 [INF] Executed ViewResult - view Index executed in 373.997ms.
+2024-01-09 15:41:58.710 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 1194.8986ms
+2024-01-09 15:41:58.712 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:41:58.717 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:11:58 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-09 15:41:58.721 +05:30 [INF] HTTP GET / responded 200 in 1355.0711 ms
+2024-01-09 15:41:58.768 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:41:58.768 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 1477.0366ms
+2024-01-09 15:41:58.778 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:41:58.797 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 28.9876ms
+2024-01-09 15:41:58.833 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.3731ms
+2024-01-09 15:41:58.898 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:41:58.900 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:41:58.906 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:41:58.908 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 8.4923 ms
+2024-01-09 15:41:58.915 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 17.1317ms
+2024-01-09 15:42:04.597 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/booking/index - -
+2024-01-09 15:42:04.598 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /booking/index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:42:04.602 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:42:04.606 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-09 15:42:08.397 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:43:27.682 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:43:27.710 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:43:27.713 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:43:27.716 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:43:27.716 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:43:27.717 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 10.8977 ms
+2024-01-09 15:43:27.720 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 37.9194ms
+2024-01-09 15:43:28.778 +05:30 [INF] Executed ViewResult - view Index executed in 80382.0942ms.
+2024-01-09 15:43:28.781 +05:30 [INF] Executed action SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment) in 84173.974ms
+2024-01-09 15:43:28.783 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:43:28.786 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:13:28 GMT
+Server: Kestrel
+Set-Cookie: [Redacted]
+2024-01-09 15:43:28.791 +05:30 [INF] HTTP GET /booking/index responded 200 in 84192.9285 ms
+2024-01-09 15:43:28.797 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/booking/index - - - 200 - text/html;+charset=utf-8 84200.4555ms
+2024-01-09 15:43:28.810 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:43:28.815 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:13:28 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:43:28.819 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 1103.1600 ms
+2024-01-09 15:43:28.830 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 1117.4007ms
+2024-01-09 15:43:28.934 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:43:28.934 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:43:28.936 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.8275ms
+2024-01-09 15:43:28.949 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:43:28.951 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:43:28.952 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.0962ms
+2024-01-09 15:43:28.953 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:43:28.954 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 3.1250 ms
+2024-01-09 15:43:28.958 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 8.3367ms
+2024-01-09 15:43:28.969 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:43:28.970 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:43:28.972 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:43:28.973 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 3.6909 ms
+2024-01-09 15:43:28.976 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 6.7961ms
+2024-01-09 15:43:29.024 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:43:29.025 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:43:29.033 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:43:29.035 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:13:28 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:43:29.036 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 11.2546 ms
+2024-01-09 15:43:29.038 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 14.7965ms
+2024-01-09 15:48:47.668 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 15:48:48.027 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-09 15:48:48.028 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-09 15:48:48.033 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 15:48:48.034 +05:30 [INF] Hosting environment: Development
+2024-01-09 15:48:48.035 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-09 15:48:50.670 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-09 15:48:50.744 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:48:50.809 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:48:50.890 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2024-01-09 15:48:51.648 +05:30 [INF] index1
+2024-01-09 15:48:51.670 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:48:52.042 +05:30 [INF] Executed ViewResult - view Index executed in 374.2849ms.
+2024-01-09 15:48:52.063 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 1170.1028ms
+2024-01-09 15:48:52.066 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2024-01-09 15:48:52.073 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:18:51 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-09 15:48:52.079 +05:30 [INF] HTTP GET / responded 200 in 1338.8456 ms
+2024-01-09 15:48:52.130 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:48:52.130 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:48:52.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 1473.5936ms
+2024-01-09 15:48:52.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 10.6156ms
+2024-01-09 15:48:52.177 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.2490ms
+2024-01-09 15:48:52.243 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:48:52.245 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:48:52.252 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:48:52.253 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 8.2785 ms
+2024-01-09 15:48:52.261 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 16.9291ms
+2024-01-09 15:49:03.199 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:49:03.201 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:49:03.208 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:49:03.209 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:49:03.209 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:49:03.210 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 9.5458 ms
+2024-01-09 15:49:03.212 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 12.6774ms
+2024-01-09 15:49:03.254 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:49:03.256 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:19:02 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:49:03.257 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 48.4453 ms
+2024-01-09 15:49:03.259 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 51.0600ms
+2024-01-09 15:49:06.834 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/booking/index - -
+2024-01-09 15:49:06.836 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /booking/index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-09 15:49:06.837 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:49:06.841 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-09 15:49:11.510 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-09 15:49:11.561 +05:30 [INF] Executed ViewResult - view Index executed in 52.5383ms.
+2024-01-09 15:49:11.563 +05:30 [INF] Executed action SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment) in 4719.7295ms
+2024-01-09 15:49:11.564 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-09 15:49:11.565 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 09 Jan 2024 10:19:11 GMT
+Server: Kestrel
+Set-Cookie: [Redacted]
+2024-01-09 15:49:11.566 +05:30 [INF] HTTP GET /booking/index responded 200 in 4730.3072 ms
+2024-01-09 15:49:11.568 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/booking/index - - - 200 - text/html;+charset=utf-8 4734.4661ms
+2024-01-09 15:49:11.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 15:49:11.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-09 15:49:11.576 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.5654ms
+2024-01-09 15:49:11.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.2819ms
+2024-01-09 15:49:11.613 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:49:11.614 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:49:11.616 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:49:11.616 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.1445 ms
+2024-01-09 15:49:11.618 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 4.8917ms
+2024-01-09 15:49:11.627 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2024-01-09 15:49:11.628 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2024-01-09 15:49:11.630 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-09 15:49:11.631 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.8323 ms
+2024-01-09 15:49:11.633 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 5.5646ms
+2024-01-09 15:49:11.668 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2024-01-09 15:49:11.670 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2024-01-09 15:49:11.677 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2024-01-09 15:49:11.679 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Tue, 09 Jan 2024 10:19:11 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2024-01-09 15:49:11.680 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 10.5909 ms
+2024-01-09 15:49:11.684 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 15.4998ms

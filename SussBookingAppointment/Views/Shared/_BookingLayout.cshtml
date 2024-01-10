@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/foundation.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    @RenderSection("Style", required: false)
+</head>
+
+<body>
+
+    <header class="header sign-in">
+        <div class="grid-container">
+            <div class="grid-x align-center">
+                <div class="cell shrink suss-logo">
+                    <img src="~/images/suss.png" alt="suss">
+                </div>
+            </div>
+        </div>
+    </header>
+
+   <div class="grid-container">
+            @RenderBody()
+        </div>
+
+    <footer class="footer">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell medium-5">
+                    <h6>Singapore University of Social Sciences</h6>
+                    <div>
+                        <h6 class="float-left"><a href="#">Privacy Policy</a></h6>
+                        <h6 class="text-right"><a href="#">Terms and Condition</a></h6>
+                    </div>
+                    <p>© 2024 suss. All rights reserved.</p>
+                </div>
+                <div class="cell medium-7 footer-right">
+                    <div class="flex-child-shrink">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <a>Singapore 599494</a>
+                    </div>
+                    <div class="flex-child-shrink">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:6562489777">+65 6248 9777</a>
+                    </div>
+                    <div class="flex-child-shrink">
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:student_recruitment@suss.edu.sg">student_recruitment@suss.edu.sg</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/js/vendor/jquery.js"></script>
+    <script src="~/js/vendor/what-input.js"></script>
+    <script src="~/js/vendor/foundation.js"></script>
+    <script src="~/js/app.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

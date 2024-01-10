@@ -1,0 +1,54 @@
+﻿@model MeetingData
+
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "View";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Customer Name
+            </th>
+            <th>
+                Email Address
+            </th>
+            <th>
+                Start Date Time
+            </th>
+            <th>
+                End Date Time
+            </th>
+            <th>
+                Location
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.value) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.customers[0].name)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customers[0].emailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.startDateTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endDateTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.serviceLocation.displayName)
+                </td>
+            @*<td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>

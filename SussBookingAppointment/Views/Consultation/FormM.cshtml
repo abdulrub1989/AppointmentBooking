@@ -1,0 +1,54 @@
+﻿@model FormM;
+@{
+    ViewData["Title"] = "CunsultancyType";
+    Layout = "_CounsellingLayout";
+}
+@if (string.IsNullOrEmpty(ViewBag.ErrorMessage) == false)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+<div class="card-body text-left" style="margin-top:15px;">
+    <form asp-action="FormM" class="text-left">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @Html.HiddenFor(x=> x.UserID)
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" disabled readonly="readonly" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="PINumber" class="control-label"></label>
+                <input asp-for="PINumber" class="form-control" disabled readonly="readonly" />
+                <span asp-validation-for="PINumber" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group form-check col-md-12">
+                <input asp-for="AgreementSessRecorded" type="checkbox" class="form-check-input" id="chkAggreement" required>
+                <label asp-for="AgreementSessRecorded" class="form-check-label" for="chkAggreement">Agreement for session to be recorded<span class="text-danger">*</span></label>
+                <span asp-validation-for="AgreementSessRecorded" class="text-danger" for="chkAggreement"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group form-check col-md-12">
+                <input asp-for="ACKConfidSessRecorded" type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                <label asp-for="ACKConfidSessRecorded" class="form-check-label" for="exampleCheck1">Acknowledgement of confidentiality and T&C related to the recording of the sesion<span class="text-danger">*</span></label>
+                <span asp-validation-for="ACKConfidSessRecorded" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-5 text-center">
+                <button class="button expanded" type="submit" value="Final Confirmation">Final Confirmation</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+@section Scripts {
+    <script>
+        $('#formD,#formM').addClass('active');
+    </script>
+}

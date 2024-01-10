@@ -1,0 +1,24 @@
+﻿@model Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+	<div class="col-12">
+		<h1>Something went wrong on last page</h1>
+		<hr />
+	</div>
+</div>
+<div class="row">
+	<div class="col-12">
+		<h3>Please try again, or contact us if problem persists.</h3>
+		@*<h3>@Model.Error.Message</h3>*@
+	</div>
+</div>
+<div class="row">
+	<div class="col-12">
+		<p>@Model.Error.Message</p>
+		<p>@Model.Error.StackTrace</p>
+		<p>@Model.Error.InnerException</p>
+	</div>
+</div>

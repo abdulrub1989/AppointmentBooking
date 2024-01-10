@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suss</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/foundation.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    @RenderSection("Style", required: false)
+</head>
+
+<body>
+
+    <header class="header sign-in">
+        <div class="grid-container">
+            <div class="grid-x align-center">
+                <div class="cell shrink suss-logo">
+                    <img src="~/images/suss.png" alt="suss">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="app-dashboard shrink-medium">
+
+
+        <div class="app-dashboard-body off-canvas-wrapper">
+            <div id="app-dashboard-sidebar"
+                 class="app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium"
+                 data-off-canvas>
+                <div class="app-dashboard-sidebar-title-area">
+                    <div class="app-dashboard-close-sidebar">
+                        <h3 class="app-dashboard-sidebar-block-title">Dashboard</h3>
+                        <!-- Close button -->
+                        <button id="close-sidebar" data-app-dashboard-toggle-shrink
+                                class="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu"
+                                type="button">
+                            <span aria-hidden="true">
+                                <a href="#">
+                                    <i class="large fa fa-angle-double-left"></i>
+                                </a>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="app-dashboard-open-sidebar">
+                        <button id="open-sidebar" data-app-dashboard-toggle-shrink
+                                class="app-dashboard-open-sidebar-button show-for-medium" aria-label="open menu"
+                                type="button">
+                            <span aria-hidden="true">
+                                <a href="#">
+                                    <i class="large fa fa-angle-double-right"></i>
+                                </a>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-dashboard-sidebar-inner">
+                    <ul class="menu vertical">
+                        <li>
+                            <a href="#" class="is-active">
+                                <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Calender</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="large fa fa-hourglass"></i><span class="app-dashboard-sidebar-text">Setup</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="large fa fa-industry"></i><span class="app-dashboard-sidebar-text">Customer</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="is-active">
+                                <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Inbox</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="large fa fa-hourglass"></i><span class="app-dashboard-sidebar-text">Time</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="large fa fa-industry"></i><span class="app-dashboard-sidebar-text">Billing</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="is-active">
+                                <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Configuration</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="large fa fa-hourglass"></i><span class="app-dashboard-sidebar-text">Time</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="large fa fa-industry"></i><span class="app-dashboard-sidebar-text">reports</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell medium-5">
+                    <h6>Singapore University of Social Sciences</h6>
+                    <div>
+                        <h6 class="float-left"><a href="#">Privacy Policy</a></h6>
+                        <h6 class="text-right"><a href="#">Terms and Condition</a></h6>
+                    </div>
+                    <p>© 2024 suss. All rights reserved.</p>
+                </div>
+                <div class="cell medium-7 footer-right">
+                    <div class="flex-child-shrink">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <a>Singapore 599494</a>
+                    </div>
+                    <div class="flex-child-shrink">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:6562489777">+65 6248 9777</a>
+                    </div>
+                    <div class="flex-child-shrink">
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:student_recruitment@suss.edu.sg">student_recruitment@suss.edu.sg</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('[data-app-dashboard-toggle-shrink]').on('click', function (e) {
+            e.preventDefault();
+            $(this).parents('.app-dashboard').toggleClass('shrink-medium').toggleClass('shrink-large');
+        });
+    </script>
+    <script src="~/js/vendor/jquery.js"></script>
+    <script src="~/js/vendor/what-input.js"></script>
+    <script src="~/js/vendor/foundation.js"></script>
+    <script src="~/js/app.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

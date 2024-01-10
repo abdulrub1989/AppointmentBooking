@@ -1,0 +1,34 @@
+﻿@model LoginModel
+<div>
+    <div class="form">
+        <form asp-action="Index" asp-controller="Login" class="text-left">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <h2 class="text-center">Sign In</h2>
+            <p class="text-center">Log-in to Portal</p>
+
+            <div class="cell small-12">
+                <label class="required">Username</label>
+                <input asp-for="EmailAddress" type="text" id="text" required>
+                <span class="form-error">
+                    The Username is required field.
+                </span>
+            </div>
+            <div class="cell small-12">
+                <label class="required">Password</label>
+                <input asp-for="Password" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                       data-abide-validator="password_strength" required>
+                <span class="form-error">
+                    The Password is required field.
+                </span>
+            </div>
+            <p><a href="reset.html">Forgot Your Password?</a></p>
+            <div>
+                <fieldset class="cell large-12 submit">
+                    <button class="button expanded" type="submit" value="Submit">Submit</button>
+                    <p class="float-left">Need an account?</p>
+                    <p class="float-right"><a href="user-registration.html">Register Here</a></p>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</div>

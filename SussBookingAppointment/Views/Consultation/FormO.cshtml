@@ -1,0 +1,43 @@
+﻿@model FormO;
+@{
+    ViewData["Title"] = "CunsultancyType";
+    Layout = "_CoachingLayout";
+}
+<div class="card-body text-left" style="margin-top:15px;">
+    <form asp-action="FormO" class="text-left">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @Html.HiddenFor(x=> x.UserID)
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" disabled readonly="readonly" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="PINumber" class="control-label"></label>
+                <input asp-for="PINumber" class="form-control" disabled readonly="readonly" />
+                <span asp-validation-for="PINumber" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label asp-for="AnswertoQuestion" class="control-label">Answer to Questions</label>
+                <input type="text" class="form-control" asp-for="AnswertoQuestion" />
+                <span asp-validation-for="AnswertoQuestion" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-5 text-center">
+                <button type="submit" id="btnsave" class="btn btn-primary">
+                    Final Confirmation
+                </button>
+            </div>
+        </div>
+
+    </form>
+</div>
+@section Scripts {
+    <script>
+        $('#formD,#formN,#formO').addClass('active');
+    </script>
+}

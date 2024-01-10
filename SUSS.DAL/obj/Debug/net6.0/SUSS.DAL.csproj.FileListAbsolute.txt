@@ -1,0 +1,30 @@
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DAL.deps.json
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DAL.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DAL.pdb
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DOM.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DOM.pdb
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.csproj.AssemblyReference.cache
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.AssemblyInfoInputs.cache
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.AssemblyInfo.cs
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.csproj.CopyComplete
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\refint\SUSS.DAL.dll
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.pdb
+C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\ref\SUSS.DAL.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DAL.deps.json
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DAL.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DAL.pdb
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DOM.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\bin\Debug\net6.0\SUSS.DOM.pdb
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.csproj.AssemblyReference.cache
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.AssemblyInfoInputs.cache
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.AssemblyInfo.cs
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.csproj.CopyComplete
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\refint\SUSS.DAL.dll
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\SUSS.DAL.pdb
+C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SUSS.DAL\obj\Debug\net6.0\ref\SUSS.DAL.dll

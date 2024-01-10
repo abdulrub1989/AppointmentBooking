@@ -1,0 +1,1214 @@
+2023-12-07 19:00:39.191 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 19:00:39.700 +05:30 [INF] Now listening on: https://localhost:7196
+2023-12-07 19:00:39.701 +05:30 [INF] Now listening on: http://localhost:5252
+2023-12-07 19:00:39.707 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 19:00:39.708 +05:30 [INF] Hosting environment: Development
+2023-12-07 19:00:39.708 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\
+2023-12-07 19:00:43.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2023-12-07 19:00:43.911 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:00:43.957 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:00:44.044 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2023-12-07 19:00:44.056 +05:30 [INF] index1
+2023-12-07 19:00:44.072 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-07 19:00:44.528 +05:30 [INF] Executed ViewResult - view Index executed in 457.3523ms.
+2023-12-07 19:00:44.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/loader.css?v=dZmMWLKZaEuvFZEUn-5sxj3ZA_vbpBRYLuklLymj5Fg - -
+2023-12-07 19:00:44.546 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/loader.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:00:44.547 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 500.0179ms
+2023-12-07 19:00:44.556 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:00:44.556 +05:30 [INF] The file /css/loader.css was not modified
+2023-12-07 19:00:44.559 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:30:43 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2023-12-07 19:00:44.559 +05:30 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Tue, 12 Sep 2023 05:29:35 GMT
+2023-12-07 19:00:44.565 +05:30 [INF] HTTP GET /css/loader.css responded 304 in 15.2956 ms
+2023-12-07 19:00:44.565 +05:30 [INF] HTTP GET / responded 200 in 657.2363 ms
+2023-12-07 19:00:44.571 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/loader.css?v=dZmMWLKZaEuvFZEUn-5sxj3ZA_vbpBRYLuklLymj5Fg - - - 304 - text/css 30.8064ms
+2023-12-07 19:00:44.585 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 745.5046ms
+2023-12-07 19:00:44.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:00:44.693 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 6.4033ms
+2023-12-07 19:00:44.818 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:00:44.819 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:00:44.824 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:00:44.824 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 5.6849 ms
+2023-12-07 19:00:44.828 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 9.8350ms
+2023-12-07 19:00:44.849 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:00:44.850 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:00:44.852 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:00:44.853 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.8849 ms
+2023-12-07 19:00:44.854 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 5.2326ms
+2023-12-07 19:00:44.881 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:00:44.882 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:00:45.046 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:00:45.056 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:30:44 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:00:45.058 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 176.1951 ms
+2023-12-07 19:00:45.074 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 193.3394ms
+2023-12-07 19:00:58.708 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 216
+2023-12-07 19:00:58.711 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 216
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:00:58.712 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:00:58.747 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SUSS.DOM.Entities.LoginModel) on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2023-12-07 19:00:59.517 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA.
+2023-12-07 19:00:59.521 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 772.212ms
+2023-12-07 19:00:59.523 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:00:59.525 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA
+Set-Cookie: [Redacted]
+2023-12-07 19:00:59.526 +05:30 [INF] HTTP POST / responded 302 in 814.9871 ms
+2023-12-07 19:00:59.528 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 216 - 302 0 - 820.0937ms
+2023-12-07 19:00:59.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA - -
+2023-12-07 19:00:59.541 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-12-07 19:00:59.545 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:00:59.550 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(System.String) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:00:59.679 +05:30 [INF] Executing ViewResult, running view CunsultancyType.
+2023-12-07 19:00:59.707 +05:30 [INF] Executed ViewResult - view CunsultancyType executed in 28.6846ms.
+2023-12-07 19:00:59.708 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 154.1914ms
+2023-12-07 19:00:59.709 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:00:59.710 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:30:59 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-12-07 19:00:59.712 +05:30 [INF] HTTP GET /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA responded 200 in 170.3594 ms
+2023-12-07 19:00:59.714 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA - - - 200 - text/html;+charset=utf-8 174.9491ms
+2023-12-07 19:00:59.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:00:59.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.9296ms
+2023-12-07 19:00:59.773 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:00:59.774 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:00:59.775 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:00:59.776 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.2561 ms
+2023-12-07 19:00:59.780 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 6.8107ms
+2023-12-07 19:00:59.790 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:00:59.791 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:00:59.792 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:00:59.792 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 1.4739 ms
+2023-12-07 19:00:59.794 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 3.8467ms
+2023-12-07 19:00:59.813 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:00:59.814 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:00:59.818 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:00:59.820 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:30:59 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:00:59.821 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 6.9594 ms
+2023-12-07 19:00:59.822 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 9.2141ms
+2023-12-07 19:01:03.648 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA application/x-www-form-urlencoded 227
+2023-12-07 19:01:03.650 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 227
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:01:03.652 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:01:03.659 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(SussBookingAppointment.ViewModel.CunsultancyTypeViewModel) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:01:06.654 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/RequestReject?type=1.
+2023-12-07 19:01:06.669 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 3008.5933ms
+2023-12-07 19:01:06.670 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:01:06.671 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/RequestReject?type=1
+Set-Cookie: [Redacted]
+2023-12-07 19:01:06.672 +05:30 [INF] HTTP POST /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA responded 302 in 3021.9398 ms
+2023-12-07 19:01:06.673 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS024z4JxZibuF9fcZE6dAGk_wLNfAFF5KmLlKaVJMw3mno6L6EC6Yw5DFCBhdFk150dHVWemQDyQ1Pp73v--IhI7RQf3tTJA03AQRzcDlbpGd9OYyfGwpS61zm_ZIrkp3mA application/x-www-form-urlencoded 227 - 302 0 - 3024.6712ms
+2023-12-07 19:01:06.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/RequestReject?type=1 - -
+2023-12-07 19:01:06.677 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/RequestReject
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-12-07 19:01:06.680 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.RequestReject (SussBookingAppointment)'
+2023-12-07 19:01:06.683 +05:30 [INF] Route matched with {action = "RequestReject", controller = "Consultation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestReject(Int32) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:01:06.699 +05:30 [INF] Executing ViewResult, running view RequestReject.
+2023-12-07 19:01:06.705 +05:30 [INF] Executed ViewResult - view RequestReject executed in 6.3624ms.
+2023-12-07 19:01:06.706 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.RequestReject (SussBookingAppointment) in 21.8548ms
+2023-12-07 19:01:06.707 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.RequestReject (SussBookingAppointment)'
+2023-12-07 19:01:06.708 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:31:06 GMT
+Server: Kestrel
+Set-Cookie: [Redacted]
+2023-12-07 19:01:06.709 +05:30 [INF] HTTP GET /Consultation/RequestReject responded 200 in 31.5822 ms
+2023-12-07 19:01:06.710 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/RequestReject?type=1 - - - 200 - text/html;+charset=utf-8 34.2123ms
+2023-12-07 19:01:06.739 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:01:06.741 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.1106ms
+2023-12-07 19:01:08.215 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:01:08.217 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:01:08.219 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:01:08.220 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 3.5357 ms
+2023-12-07 19:01:08.223 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 8.3651ms
+2023-12-07 19:01:08.232 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:01:08.233 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:01:08.234 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:01:08.235 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.4053 ms
+2023-12-07 19:01:08.237 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 5.0843ms
+2023-12-07 19:01:08.254 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:01:08.255 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:01:08.259 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:01:08.260 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:31:07 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:01:08.261 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 6.0558 ms
+2023-12-07 19:01:08.264 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 9.8803ms
+2023-12-07 19:01:12.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - -
+2023-12-07 19:01:12.206 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:01:12.207 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2023-12-07 19:01:12.214 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(Int32) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:01:17.774 +05:30 [INF] Executing ViewResult, running view FormD.
+2023-12-07 19:01:17.928 +05:30 [INF] Executed ViewResult - view FormD executed in 154.647ms.
+2023-12-07 19:01:17.929 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 5647.0224ms
+2023-12-07 19:01:17.930 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2023-12-07 19:01:17.932 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:31:17 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-12-07 19:01:17.933 +05:30 [INF] HTTP GET /Consultation/FormD responded 200 in 5726.7410 ms
+2023-12-07 19:01:17.934 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - - - 200 - text/html;+charset=utf-8 5729.7022ms
+2023-12-07 19:01:17.943 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:01:17.945 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.1564ms
+2023-12-07 19:01:19.473 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:01:19.476 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:01:19.476 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:01:19.477 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 1.1564 ms
+2023-12-07 19:01:19.478 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 5.1723ms
+2023-12-07 19:01:19.484 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:01:19.485 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:01:19.487 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:01:19.487 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.3531 ms
+2023-12-07 19:01:19.490 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 5.6687ms
+2023-12-07 19:01:19.504 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:01:19.505 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:01:19.508 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:01:19.509 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:31:18 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:01:19.510 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 4.8062 ms
+2023-12-07 19:01:19.511 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 6.7299ms
+2023-12-07 19:02:14.314 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/FormD application/x-www-form-urlencoded 407
+2023-12-07 19:02:14.322 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 407
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:02:14.324 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2023-12-07 19:02:14.327 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(SUSS.DOM.Entities.UserRegistration) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:02:28.828 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/FormM.
+2023-12-07 19:02:28.829 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 14499.3502ms
+2023-12-07 19:02:28.830 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2023-12-07 19:02:28.830 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/FormM
+Set-Cookie: [Redacted]
+2023-12-07 19:02:28.831 +05:30 [INF] HTTP POST /Consultation/FormD responded 302 in 14509.4122 ms
+2023-12-07 19:02:28.832 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/FormD application/x-www-form-urlencoded 407 - 302 0 - 14518.3526ms
+2023-12-07 19:02:28.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormM - -
+2023-12-07 19:02:28.842 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-12-07 19:02:28.844 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2023-12-07 19:02:28.849 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:02:32.639 +05:30 [INF] Executing ViewResult, running view FormM.
+2023-12-07 19:02:32.798 +05:30 [INF] Executed ViewResult - view FormM executed in 160.0666ms.
+2023-12-07 19:02:32.800 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 3946.9504ms
+2023-12-07 19:02:32.802 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2023-12-07 19:02:32.804 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:32:32 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-12-07 19:02:32.805 +05:30 [INF] HTTP GET /Consultation/FormM responded 200 in 3962.9757 ms
+2023-12-07 19:02:32.809 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormM - - - 200 - text/html;+charset=utf-8 3968.8045ms
+2023-12-07 19:02:32.816 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:02:32.817 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.4561ms
+2023-12-07 19:02:32.891 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:02:32.892 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:02:32.893 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:02:32.893 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 1.6710 ms
+2023-12-07 19:02:32.895 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 4.2704ms
+2023-12-07 19:02:32.903 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:02:32.904 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:02:32.905 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:02:32.905 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 1.9261 ms
+2023-12-07 19:02:32.907 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 4.4054ms
+2023-12-07 19:02:32.922 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:02:32.923 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:02:32.926 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:02:32.927 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:32:32 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:02:32.928 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 4.8116 ms
+2023-12-07 19:02:32.929 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 6.6426ms
+2023-12-07 19:03:52.671 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/FormM application/x-www-form-urlencoded 301
+2023-12-07 19:03:52.680 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 301
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:03:52.684 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2023-12-07 19:03:52.687 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM(SUSS.DOM.Entities.FormM) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:04:11.747 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/Confirm.
+2023-12-07 19:04:11.753 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 19064.5041ms
+2023-12-07 19:04:11.754 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2023-12-07 19:04:11.756 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/Confirm
+Set-Cookie: [Redacted]
+2023-12-07 19:04:11.756 +05:30 [INF] HTTP POST /Consultation/FormM responded 302 in 19078.7251 ms
+2023-12-07 19:04:11.758 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/FormM application/x-www-form-urlencoded 301 - 302 0 - 19088.4809ms
+2023-12-07 19:04:11.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/Confirm - -
+2023-12-07 19:04:11.765 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/Confirm
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-12-07 19:04:11.766 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.Confirm (SussBookingAppointment)'
+2023-12-07 19:04:11.770 +05:30 [INF] Route matched with {action = "Confirm", controller = "Consultation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Confirm() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:04:11.773 +05:30 [INF] Executing ViewResult, running view Confirm.
+2023-12-07 19:04:11.777 +05:30 [INF] Executed ViewResult - view Confirm executed in 5.0283ms.
+2023-12-07 19:04:11.779 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.Confirm (SussBookingAppointment) in 7.5125ms
+2023-12-07 19:04:11.781 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.Confirm (SussBookingAppointment)'
+2023-12-07 19:04:11.785 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:34:11 GMT
+Server: Kestrel
+Set-Cookie: [Redacted]
+2023-12-07 19:04:11.786 +05:30 [INF] HTTP GET /Consultation/Confirm responded 200 in 21.5327 ms
+2023-12-07 19:04:11.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/Confirm - - - 200 - text/html;+charset=utf-8 25.6271ms
+2023-12-07 19:04:11.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:04:11.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.0912ms
+2023-12-07 19:04:11.864 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:04:11.865 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:04:11.867 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:04:11.868 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.7093 ms
+2023-12-07 19:04:11.869 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 5.2695ms
+2023-12-07 19:04:11.878 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:04:11.879 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:04:11.881 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:04:11.882 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.7198 ms
+2023-12-07 19:04:11.884 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 6.0142ms
+2023-12-07 19:04:11.901 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:04:11.902 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:04:11.926 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:04:11.928 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:34:11 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:04:11.928 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 26.1722 ms
+2023-12-07 19:04:11.930 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 28.5835ms
+2023-12-07 19:04:56.771 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w - -
+2023-12-07 19:04:56.774 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8,es;q=0.7,ar;q=0.6,ur;q=0.5,hi;q=0.4
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+DNT: 1
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:04:56.778 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.StaffController.Approver (SussBookingAppointment)'
+2023-12-07 19:04:56.782 +05:30 [INF] Route matched with {action = "Approver", controller = "Staff"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Approver(System.String) on controller SussBookingAppointment.Controllers.StaffController (SussBookingAppointment).
+2023-12-07 19:04:56.809 +05:30 [INF] Id
+2023-12-07 19:04:56.811 +05:30 [INF] Executing ViewResult, running view Approver.
+2023-12-07 19:04:56.863 +05:30 [INF] Executed ViewResult - view Approver executed in 52.6219ms.
+2023-12-07 19:04:56.864 +05:30 [INF] Executed action SussBookingAppointment.Controllers.StaffController.Approver (SussBookingAppointment) in 79.4787ms
+2023-12-07 19:04:56.865 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.StaffController.Approver (SussBookingAppointment)'
+2023-12-07 19:04:56.866 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:34:56 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-12-07 19:04:56.867 +05:30 [INF] HTTP GET /Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w responded 200 in 92.4758 ms
+2023-12-07 19:04:56.869 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w - - - 200 - text/html;+charset=utf-8 97.6094ms
+2023-12-07 19:04:56.916 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/loader.css?v=dZmMWLKZaEuvFZEUn-5sxj3ZA_vbpBRYLuklLymj5Fg - -
+2023-12-07 19:04:56.916 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:04:56.917 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/loader.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8,es;q=0.7,ar;q=0.6,ur;q=0.5,hi;q=0.4
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+DNT: 1
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:04:56.917 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.4864ms
+2023-12-07 19:04:56.922 +05:30 [INF] The file /css/loader.css was not modified
+2023-12-07 19:04:56.926 +05:30 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Tue, 12 Sep 2023 05:29:35 GMT
+2023-12-07 19:04:56.927 +05:30 [INF] HTTP GET /css/loader.css responded 304 in 10.0985 ms
+2023-12-07 19:04:56.929 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/loader.css?v=dZmMWLKZaEuvFZEUn-5sxj3ZA_vbpBRYLuklLymj5Fg - - - 304 - text/css 13.2661ms
+2023-12-07 19:05:04.146 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w application/x-www-form-urlencoded 485
+2023-12-07 19:05:04.147 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8,es;q=0.7,ar;q=0.6,ur;q=0.5,hi;q=0.4
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 485
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+DNT: 1
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:05:04.149 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.StaffController.Approver (SussBookingAppointment)'
+2023-12-07 19:05:04.152 +05:30 [INF] Route matched with {action = "Approver", controller = "Staff"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Approver(SUSS.DOM.Entities.Approver) on controller SussBookingAppointment.Controllers.StaffController (SussBookingAppointment).
+2023-12-07 19:05:05.950 +05:30 [INF] Request Approve in Process
+2023-12-07 19:05:08.894 +05:30 [INF] Executed action SussBookingAppointment.Controllers.StaffController.Approver (SussBookingAppointment) in 4739.1557ms
+2023-12-07 19:05:08.897 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.StaffController.Approver (SussBookingAppointment)'
+2023-12-07 19:05:08.899 +05:30 [ERR] HTTP POST /Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w responded 500 in 4752.8774 ms
+System.Data.SqlClient.SqlException (0x80131904): Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+   at SUSS.DAL.Repositories.CommonRepository.Execute(String sp, DynamicParameters parms, CommandType commandType) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\Repositories\CommonRepository.cs:line 73
+   at SUSS.DAL.Repositories.ApproverRepository.SUSS.DAL.Repositories.IApproverRepository.UpdateApproveRequest(Approver approver) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\Repositories\ApproverRepository.cs:line 50
+   at SussBookingAppointment.Handlers.ApproveHandler.MediatR.IRequestHandler<ApproveCommand,System.Int32>.Handle(ApproveCommand request, CancellationToken cancellationToken) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\Handlers\ApproveHandler.cs:line 27
+   at SussBookingAppointment.Controllers.StaffController.Approver(Approver approver) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\Controllers\StaffController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:0d9e8b85-fa40-4dbd-988b-1ccf3f8266fd
+Error Number:266,State:2,Class:16
+2023-12-07 19:05:09.078 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+   at SUSS.DAL.Repositories.CommonRepository.Execute(String sp, DynamicParameters parms, CommandType commandType) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\Repositories\CommonRepository.cs:line 73
+   at SUSS.DAL.Repositories.ApproverRepository.SUSS.DAL.Repositories.IApproverRepository.UpdateApproveRequest(Approver approver) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SUSS.DAL\Repositories\ApproverRepository.cs:line 50
+   at SussBookingAppointment.Handlers.ApproveHandler.MediatR.IRequestHandler<ApproveCommand,System.Int32>.Handle(ApproveCommand request, CancellationToken cancellationToken) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\Handlers\ApproveHandler.cs:line 27
+   at SussBookingAppointment.Controllers.StaffController.Approver(Approver approver) in C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\Controllers\StaffController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:0d9e8b85-fa40-4dbd-988b-1ccf3f8266fd
+Error Number:266,State:2,Class:16
+2023-12-07 19:05:09.196 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Staff/Approver/CfDJ8GRntl1LsLlCumk5FaBHS01x_nujMwY6vcHLAK7-ThQOnmsiQafvX3DyyWKwwhiWrFrgGUMaEzN1Sf8na9xEWxmKcj0HlkQwB4cYvvkW77zgwV48YJBn_Mv2bcumWEUJ_w application/x-www-form-urlencoded 485 - 500 - text/html;+charset=utf-8 5050.6289ms
+2023-12-07 19:05:09.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:05:09.209 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.2451ms
+2023-12-07 19:06:39.242 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2023-12-07 19:06:39.251 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:06:39.252 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:06:39.253 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2023-12-07 19:06:39.255 +05:30 [INF] index1
+2023-12-07 19:06:39.255 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-07 19:06:39.257 +05:30 [INF] Executed ViewResult - view Index executed in 2.1667ms.
+2023-12-07 19:06:39.259 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 4.0853ms
+2023-12-07 19:06:39.260 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:06:39.261 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:36:38 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-12-07 19:06:39.262 +05:30 [INF] HTTP GET / responded 200 in 11.0557 ms
+2023-12-07 19:06:39.265 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 23.4539ms
+2023-12-07 19:06:39.283 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:06:39.284 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.5275ms
+2023-12-07 19:06:39.337 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:06:39.338 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:06:39.339 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:06:39.340 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 1.7051 ms
+2023-12-07 19:06:39.341 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 4.2448ms
+2023-12-07 19:06:39.351 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:06:39.352 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:06:39.354 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:06:39.355 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 2.7580 ms
+2023-12-07 19:06:39.356 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 5.3047ms
+2023-12-07 19:06:39.373 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:06:39.374 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:06:39.378 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:06:39.380 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:36:38 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:06:39.381 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 6.8507 ms
+2023-12-07 19:06:39.382 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 9.1420ms
+2023-12-07 19:06:41.562 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 216
+2023-12-07 19:06:41.566 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 216
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:06:41.568 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:06:41.570 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SUSS.DOM.Entities.LoginModel) on controller SussBookingAppointment.Controllers.HomeController (SussBookingAppointment).
+2023-12-07 19:06:41.577 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88.
+2023-12-07 19:06:41.579 +05:30 [INF] Executed action SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment) in 5.1708ms
+2023-12-07 19:06:41.581 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.HomeController.Index (SussBookingAppointment)'
+2023-12-07 19:06:41.582 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88
+Set-Cookie: [Redacted]
+2023-12-07 19:06:41.583 +05:30 [INF] HTTP POST / responded 302 in 17.2416 ms
+2023-12-07 19:06:41.585 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 216 - 302 0 - 22.9399ms
+2023-12-07 19:06:41.590 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88 - -
+2023-12-07 19:06:41.597 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Cookie: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-12-07 19:06:41.602 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:06:41.603 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(System.String) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:06:41.607 +05:30 [INF] Executing ViewResult, running view CunsultancyType.
+2023-12-07 19:06:41.609 +05:30 [INF] Executed ViewResult - view CunsultancyType executed in 1.9416ms.
+2023-12-07 19:06:41.610 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 4.8451ms
+2023-12-07 19:06:41.611 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:06:41.612 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 07 Dec 2023 13:36:40 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-12-07 19:06:41.614 +05:30 [INF] HTTP GET /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88 responded 200 in 16.8758 ms
+2023-12-07 19:06:41.616 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88 - - - 200 - text/html;+charset=utf-8 25.8752ms
+2023-12-07 19:06:41.619 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 19:06:41.620 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.3832ms
+2023-12-07 19:06:41.650 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:06:41.652 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:06:41.653 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:06:41.655 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 3.4641 ms
+2023-12-07 19:06:41.658 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 7.9422ms
+2023-12-07 19:06:41.666 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - -
+2023-12-07 19:06:41.667 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/popper.min.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+Cookie: [Redacted]
+2023-12-07 19:06:41.668 +05:30 [INF] Response:
+StatusCode: 404
+2023-12-07 19:06:41.669 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/popper.min.js.map responded 404 in 1.5861 ms
+2023-12-07 19:06:41.670 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/popper.min.js.map - - - 404 0 - 3.8944ms
+2023-12-07 19:06:41.686 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - -
+2023-12-07 19:06:41.686 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /lib/bootstrap/dist/js/bootstrap.js.map
+Connection: close
+Host: localhost:7196
+User-Agent: got (https://github.com/sindresorhus/got)
+Accept-Encoding: gzip, deflate, br
+2023-12-07 19:06:41.698 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js.map'. Physical path: 'C:\Users\abdul.rub\Desktop\SussBookingAppointment\SussBookingAppointment\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map'
+2023-12-07 19:06:41.699 +05:30 [INF] Response:
+StatusCode: 200
+Connection: close
+Content-Type: text/plain
+Date: Thu, 07 Dec 2023 13:36:40 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 02 Oct 2023 07:36:43 GMT
+Content-Length: 289522
+2023-12-07 19:06:41.700 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.js.map responded 200 in 13.6222 ms
+2023-12-07 19:06:41.702 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7196/lib/bootstrap/dist/js/bootstrap.js.map - - - 200 289522 text/plain 16.1562ms
+2023-12-07 19:06:44.452 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88 application/x-www-form-urlencoded 227
+2023-12-07 19:06:44.454 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 227
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-12-07 19:06:44.456 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:06:44.457 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(SussBookingAppointment.ViewModel.CunsultancyTypeViewModel) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2023-12-07 19:06:49.771 +05:30 [INF] Executing RedirectResult, redirecting to https://outlook.office365.com/owa/calendar/SUSS@espire.com/bookings/.
+2023-12-07 19:06:49.773 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 5313.011ms
+2023-12-07 19:06:49.774 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2023-12-07 19:06:49.775 +05:30 [INF] Response:
+StatusCode: 301
+Location: https://outlook.office365.com/owa/calendar/SUSS@espire.com/bookings/
+2023-12-07 19:06:49.776 +05:30 [INF] HTTP POST /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88 responded 301 in 5321.8580 ms
+2023-12-07 19:06:49.778 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03YXFMZ8ytR0278klM-5jnbNrXvNtdmpTWTx1Q3mvsirUK0kNKlUU-eDpgzM9hqh2r_uFtZEUxpey8ollSYBSgB_FHe1FsKS5QOGKgn5oBGbHO8lE6uc8GlIfNm-N8DA88 application/x-www-form-urlencoded 227 - 301 0 - 5326.2925ms

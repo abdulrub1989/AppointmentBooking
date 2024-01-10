@@ -1,0 +1,43 @@
+﻿@model FormN;
+@{
+    ViewData["Title"] = "CunsultancyType";
+    Layout = "_CoachingLayout";
+}
+@if (string.IsNullOrEmpty(ViewBag.ErrorMessage) == false)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+<div class="card-body text-left" style="margin-top:15px;">
+    <form asp-action="FormN" class="text-left">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @Html.HiddenFor(x=> x.UserID)
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" disabled readonly="readonly" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group form-check col-md-12">
+                <input asp-for="AgreementRuleCoaching" type="checkbox" class="form-check-input" required>
+                <label asp-for="AgreementRuleCoaching" class="form-check-label" for="exampleCheck1">Acknowledgement on Ground Rules for Life Coaching Services.<span class="text-danger">*</span></label>
+                <span asp-validation-for="AgreementRuleCoaching" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-5 text-center">
+                <button type="submit" id="btnsave" class="btn btn-primary">
+                    Next
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    <script>
+        $('#formD,#formN').addClass('active');
+    </script>
+}

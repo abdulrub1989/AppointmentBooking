@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SUSS Booking Apointment</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/loader.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/multi-step.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="~/Content/themes/jquery-ui.min.css" />
+    @RenderSection("Style", required: false)
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-white">
+            <a class="navbar-brand img-responsive" asp-area="" asp-controller="Home" asp-action="Index">
+                SussBookingAppointment
+            </a>
+        </nav>
+    </header>
+    <main style="background-color: #E1E1E0;">
+        <div class="container body-content">
+            <partial name="_Notification" />
+            @RenderBody()
+        </div>
+    </main>
+   
+    <footer>
+        <p class="font-style">&copy; 2023 - SussBookingAppointment - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>.</p>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/popper.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/multistep.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

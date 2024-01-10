@@ -1,0 +1,24 @@
+﻿<div class="grid-container">
+    <div>
+        <div class="form">
+            <h2 class="text-center"> Confirmation Page</h2>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <div class="alert alert-danger" role="alert">
+                        <strong>Request Rejected!</strong>  @Convert.ToString(TempData["error"]).
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <div class="alert alert-warning" role="alert">
+                        @{
+                            int type = Convert.ToInt32(Context.Request.Query["type"]);
+                            <a asp-action="FormD" asp-route-type="@type">Click here to Re-Submit the for the staff Approver</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

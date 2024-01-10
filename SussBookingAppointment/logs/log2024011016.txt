@@ -1,0 +1,1707 @@
+2024-01-10 16:00:40.221 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-10 16:00:40.665 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-10 16:00:40.666 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-10 16:00:40.672 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-10 16:00:40.673 +05:30 [INF] Hosting environment: Development
+2024-01-10 16:00:40.674 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-10 16:00:43.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-10 16:00:43.558 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:00:43.623 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:00:43.689 +05:30 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.LoginController (SussBookingAppointment).
+2024-01-10 16:00:45.271 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-10 16:00:45.610 +05:30 [INF] Executed ViewResult - view Index executed in 337.7634ms.
+2024-01-10 16:00:45.622 +05:30 [INF] Executed action SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment) in 1928.1292ms
+2024-01-10 16:00:45.624 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:00:45.631 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 10:30:45 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-10 16:00:45.636 +05:30 [INF] HTTP GET / responded 200 in 2082.2462 ms
+2024-01-10 16:00:45.676 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 2171.0209ms
+2024-01-10 16:00:45.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:00:45.688 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:00:45.688 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:00:45.698 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:00:45.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 17.7489ms
+2024-01-10 16:00:45.712 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:00:45.713 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 16.2974 ms
+2024-01-10 16:00:45.715 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 35.8537ms
+2024-01-10 16:00:45.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.0781ms
+2024-01-10 16:00:55.392 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 236
+2024-01-10 16:00:55.395 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 236
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:00:55.398 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:00:55.417 +05:30 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SUSS.DOM.Entities.LoginModel) on controller SussBookingAppointment.Controllers.LoginController (SussBookingAppointment).
+2024-01-10 16:00:55.866 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U.
+2024-01-10 16:00:55.870 +05:30 [INF] Executed action SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment) in 450.081ms
+2024-01-10 16:00:55.871 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:00:55.877 +05:30 [INF] Session started; Key:c4ac3dd7-525a-1f8b-a486-d9d07b04ff37, Id:fbe272f7-f20b-b487-3e3d-85a7fab50807
+2024-01-10 16:00:55.878 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U
+2024-01-10 16:00:55.878 +05:30 [INF] HTTP POST / responded 302 in 482.9977 ms
+2024-01-10 16:00:55.880 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 236 - 302 0 - 487.7823ms
+2024-01-10 16:00:55.886 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U - -
+2024-01-10 16:00:55.889 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:00:55.891 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:00:55.895 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(System.String) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:00:55.972 +05:30 [INF] Executing ViewResult, running view CunsultancyType.
+2024-01-10 16:00:56.004 +05:30 [INF] Executed ViewResult - view CunsultancyType executed in 32.7353ms.
+2024-01-10 16:00:56.005 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 108.6766ms
+2024-01-10 16:00:56.007 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:00:56.010 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 10:30:55 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2024-01-10 16:00:56.011 +05:30 [INF] HTTP GET /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U responded 200 in 122.5765 ms
+2024-01-10 16:00:56.015 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U - - - 200 - text/html;+charset=utf-8 129.0560ms
+2024-01-10 16:00:56.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:00:56.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:00:56.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:00:56.021 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:00:56.023 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 4.1511ms
+2024-01-10 16:00:56.025 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:00:56.026 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 5.2857 ms
+2024-01-10 16:00:56.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 14.6664ms
+2024-01-10 16:00:56.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.5286ms
+2024-01-10 16:00:59.213 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U application/x-www-form-urlencoded 227
+2024-01-10 16:00:59.214 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 227
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:00:59.217 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:00:59.226 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(SussBookingAppointment.ViewModel.CunsultancyTypeViewModel) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:00:59.242 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/FormD?type=1.
+2024-01-10 16:00:59.246 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 17.2462ms
+2024-01-10 16:00:59.246 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:00:59.247 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/FormD?type=1
+2024-01-10 16:00:59.247 +05:30 [INF] HTTP POST /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U responded 302 in 33.3348 ms
+2024-01-10 16:00:59.249 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS00qpBUX204LniH2xJK87x0hvvGq3e1inrCHy7aBIFyYDQVIkn5EeDVYUWTtqPTRpEqoQuZ6jQdmF_S9N1l5pgFbvU1XcDFbxBnXgd2tnqUtanFn4Z1dOTC84tw2FAW6_6U application/x-www-form-urlencoded 227 - 302 0 - 36.0045ms
+2024-01-10 16:00:59.252 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - -
+2024-01-10 16:00:59.255 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:00:59.256 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:00:59.259 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(Int32) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:00:59.279 +05:30 [INF] Executing ViewResult, running view FormD.
+2024-01-10 16:00:59.484 +05:30 [INF] Executed ViewResult - view FormD executed in 205.8875ms.
+2024-01-10 16:00:59.486 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 225.2853ms
+2024-01-10 16:00:59.487 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:00:59.489 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 10:30:58 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:00:59.490 +05:30 [INF] HTTP GET /Consultation/FormD responded 200 in 234.9584 ms
+2024-01-10 16:00:59.494 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - - - 200 - text/html;+charset=utf-8 242.0883ms
+2024-01-10 16:00:59.498 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:00:59.498 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:00:59.498 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:00:59.499 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:00:59.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.3205ms
+2024-01-10 16:00:59.502 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:00:59.505 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 5.8271 ms
+2024-01-10 16:00:59.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 8.7678ms
+2024-01-10 16:00:59.530 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.3426ms
+2024-01-10 16:02:25.265 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - -
+2024-01-10 16:02:25.276 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:02:25.278 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:02:25.289 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(Int32) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:02:25.302 +05:30 [INF] Executing ViewResult, running view FormD.
+2024-01-10 16:02:25.322 +05:30 [INF] Executed ViewResult - view FormD executed in 20.9195ms.
+2024-01-10 16:02:25.323 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 31.49ms
+2024-01-10 16:02:25.324 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:02:25.326 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 10:32:24 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:02:25.327 +05:30 [INF] HTTP GET /Consultation/FormD responded 200 in 50.6798 ms
+2024-01-10 16:02:25.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - - - 200 - text/html;+charset=utf-8 68.3167ms
+2024-01-10 16:02:25.339 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:02:25.339 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:02:25.339 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:02:25.340 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:02:25.341 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.8998ms
+2024-01-10 16:02:25.346 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:02:25.349 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 8.6491 ms
+2024-01-10 16:02:25.374 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 35.1076ms
+2024-01-10 16:02:25.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.1653ms
+2024-01-10 16:32:55.393 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-10 16:32:55.971 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-10 16:32:55.974 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-10 16:32:55.981 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-10 16:32:55.983 +05:30 [INF] Hosting environment: Development
+2024-01-10 16:32:55.984 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-10 16:32:59.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-10 16:32:59.765 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:32:59.852 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:32:59.954 +05:30 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.LoginController (SussBookingAppointment).
+2024-01-10 16:33:01.194 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-10 16:33:01.566 +05:30 [INF] Executed ViewResult - view Index executed in 386.4371ms.
+2024-01-10 16:33:01.583 +05:30 [INF] Executed action SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment) in 1626.4887ms
+2024-01-10 16:33:01.586 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:33:01.592 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:03:00 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-10 16:33:01.598 +05:30 [INF] HTTP GET / responded 200 in 1843.1461 ms
+2024-01-10 16:33:01.673 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 2003.4334ms
+2024-01-10 16:33:01.678 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:33:01.680 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:33:01.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:33:01.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:33:01.699 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:33:01.700 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 20.5643 ms
+2024-01-10 16:33:01.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 7.0966ms
+2024-01-10 16:33:01.703 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 24.9257ms
+2024-01-10 16:33:01.791 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.8522ms
+2024-01-10 16:33:41.700 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 236
+2024-01-10 16:33:41.703 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 236
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:33:41.708 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:33:41.733 +05:30 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SUSS.DOM.Entities.LoginModel) on controller SussBookingAppointment.Controllers.LoginController (SussBookingAppointment).
+2024-01-10 16:33:42.765 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg.
+2024-01-10 16:33:42.768 +05:30 [INF] Executed action SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment) in 1031.7803ms
+2024-01-10 16:33:42.768 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:33:42.776 +05:30 [INF] Session started; Key:9da4ed8c-c797-701e-9f52-6766085fc4b7, Id:76ea1564-bf56-2eae-7483-f3e1aa2c67aa
+2024-01-10 16:33:42.778 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg
+2024-01-10 16:33:42.779 +05:30 [INF] HTTP POST / responded 302 in 1075.7665 ms
+2024-01-10 16:33:42.780 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 236 - 302 0 - 1079.7653ms
+2024-01-10 16:33:42.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg - -
+2024-01-10 16:33:42.793 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:33:42.796 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:33:42.799 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(System.String) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:33:42.900 +05:30 [INF] Executing ViewResult, running view CunsultancyType.
+2024-01-10 16:33:42.934 +05:30 [INF] Executed ViewResult - view CunsultancyType executed in 34.7791ms.
+2024-01-10 16:33:42.936 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 135.5483ms
+2024-01-10 16:33:42.937 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:33:42.938 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:03:41 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2024-01-10 16:33:42.939 +05:30 [INF] HTTP GET /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg responded 200 in 146.2243 ms
+2024-01-10 16:33:42.943 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg - - - 200 - text/html;+charset=utf-8 151.8071ms
+2024-01-10 16:33:42.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:33:42.952 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:33:42.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:33:42.960 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:33:42.962 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 12.9802ms
+2024-01-10 16:33:42.964 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:33:42.973 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 15.1086 ms
+2024-01-10 16:33:42.983 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 33.2095ms
+2024-01-10 16:33:42.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.9686ms
+2024-01-10 16:33:45.912 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg application/x-www-form-urlencoded 227
+2024-01-10 16:33:45.914 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 227
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:33:45.918 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:33:45.928 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(SussBookingAppointment.ViewModel.CunsultancyTypeViewModel) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:33:45.943 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/FormD?type=1.
+2024-01-10 16:33:45.946 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 16.0973ms
+2024-01-10 16:33:45.947 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:33:45.947 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/FormD?type=1
+2024-01-10 16:33:45.948 +05:30 [INF] HTTP POST /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg responded 302 in 33.6122 ms
+2024-01-10 16:33:45.949 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS03tGLEz5vMEsmYjSyCVg_0vziVKFJ73UmDP5JMazx75KPyMId-oqjaUnUcgmiK7rxJRwHS8lW5fCf90AO-2nA7ArFqYBRmSyIOwIEjR28Aby9T8b08TR1C--HcduU3OJLg application/x-www-form-urlencoded 227 - 302 0 - 36.6914ms
+2024-01-10 16:33:45.952 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - -
+2024-01-10 16:33:45.953 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:33:45.954 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:33:45.959 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(Int32) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:33:45.979 +05:30 [INF] Executing ViewResult, running view FormD.
+2024-01-10 16:33:46.153 +05:30 [INF] Executed ViewResult - view FormD executed in 174.8167ms.
+2024-01-10 16:33:46.156 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 195.0454ms
+2024-01-10 16:33:46.158 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:33:46.160 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:03:45 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:33:46.161 +05:30 [INF] HTTP GET /Consultation/FormD responded 200 in 208.1405 ms
+2024-01-10 16:33:46.165 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - - - 200 - text/html;+charset=utf-8 213.3433ms
+2024-01-10 16:33:46.167 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:33:46.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:33:46.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:33:46.169 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:33:46.171 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.1707ms
+2024-01-10 16:33:46.174 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:33:46.176 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 6.7385 ms
+2024-01-10 16:33:46.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 25.0607ms
+2024-01-10 16:33:46.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.8496ms
+2024-01-10 16:36:11.413 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - -
+2024-01-10 16:36:11.415 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:36:11.417 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:36:11.421 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(Int32) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:36:11.431 +05:30 [INF] Executing ViewResult, running view FormD.
+2024-01-10 16:36:11.486 +05:30 [INF] Executed ViewResult - view FormD executed in 56.263ms.
+2024-01-10 16:36:11.488 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 64.5113ms
+2024-01-10 16:36:11.489 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:36:11.491 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:06:10 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:36:11.492 +05:30 [INF] HTTP GET /Consultation/FormD responded 200 in 76.8602 ms
+2024-01-10 16:36:11.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - - - 200 - text/html;+charset=utf-8 83.5460ms
+2024-01-10 16:36:11.506 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:36:11.517 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:36:11.528 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:36:11.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:36:11.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 3.3868ms
+2024-01-10 16:36:11.533 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:36:11.536 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 18.4930 ms
+2024-01-10 16:36:11.543 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 36.6872ms
+2024-01-10 16:36:11.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.8861ms
+2024-01-10 16:36:26.861 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/FormD application/x-www-form-urlencoded 411
+2024-01-10 16:36:26.863 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 411
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:36:26.867 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:36:26.871 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(SUSS.DOM.Entities.UserRegistration) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:36:26.934 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/FormM.
+2024-01-10 16:36:26.937 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 64.842ms
+2024-01-10 16:36:26.938 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:36:26.939 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/FormM
+Set-Cookie: [Redacted]
+2024-01-10 16:36:26.940 +05:30 [INF] HTTP POST /Consultation/FormD responded 302 in 76.6665 ms
+2024-01-10 16:36:26.941 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/FormD application/x-www-form-urlencoded 411 - 302 0 - 80.4671ms
+2024-01-10 16:36:26.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormM - -
+2024-01-10 16:36:26.950 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:36:26.951 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:36:26.955 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:36:27.120 +05:30 [INF] Executing ViewResult, running view FormM.
+2024-01-10 16:36:27.192 +05:30 [INF] Executed ViewResult - view FormM executed in 72.1765ms.
+2024-01-10 16:36:27.193 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 236.2525ms
+2024-01-10 16:36:27.194 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:36:27.195 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:06:26 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:36:27.196 +05:30 [INF] HTTP GET /Consultation/FormM responded 200 in 246.0222 ms
+2024-01-10 16:36:27.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormM - - - 200 - text/html;+charset=utf-8 250.7993ms
+2024-01-10 16:36:27.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:36:27.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:36:27.206 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:36:27.207 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:36:27.208 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.2240ms
+2024-01-10 16:36:27.210 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:36:27.215 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 8.6638 ms
+2024-01-10 16:36:27.245 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 39.9878ms
+2024-01-10 16:36:27.246 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.8577ms
+2024-01-10 16:36:57.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:36:57.402 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:36:57.404 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:36:57.404 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 2.8638 ms
+2024-01-10 16:36:57.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 9.7407ms
+2024-01-10 16:38:27.338 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormM - -
+2024-01-10 16:38:27.342 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:38:27.344 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:38:27.347 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:38:27.358 +05:30 [INF] Executing ViewResult, running view FormM.
+2024-01-10 16:38:27.376 +05:30 [INF] Executed ViewResult - view FormM executed in 20.4706ms.
+2024-01-10 16:38:27.377 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 27.2763ms
+2024-01-10 16:38:27.378 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:38:27.379 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:08:26 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:38:27.380 +05:30 [INF] HTTP GET /Consultation/FormM responded 200 in 37.6071 ms
+2024-01-10 16:38:27.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormM - - - 200 - text/html;+charset=utf-8 49.8833ms
+2024-01-10 16:38:27.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:38:27.412 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:38:27.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:38:27.417 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:38:27.419 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 6.3189ms
+2024-01-10 16:38:27.424 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:38:27.433 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 16.2326 ms
+2024-01-10 16:38:27.448 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 41.7957ms
+2024-01-10 16:38:27.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 188.7962ms
+2024-01-10 16:38:49.329 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormM - -
+2024-01-10 16:38:49.343 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:38:49.346 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:38:49.383 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:38:49.391 +05:30 [INF] Executing ViewResult, running view FormM.
+2024-01-10 16:38:49.411 +05:30 [INF] Executed ViewResult - view FormM executed in 20.9075ms.
+2024-01-10 16:38:49.414 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 27.2054ms
+2024-01-10 16:38:49.415 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:38:49.417 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:08:48 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:38:49.418 +05:30 [INF] HTTP GET /Consultation/FormM responded 200 in 74.3727 ms
+2024-01-10 16:38:49.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormM - - - 200 - text/html;+charset=utf-8 93.6414ms
+2024-01-10 16:38:49.431 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:38:49.442 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:38:49.447 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:38:49.447 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:38:49.448 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 6.1115ms
+2024-01-10 16:38:49.452 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:38:49.452 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 6.4257 ms
+2024-01-10 16:38:49.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 23.2171ms
+2024-01-10 16:38:49.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.1958ms
+2024-01-10 16:39:38.397 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormM - -
+2024-01-10 16:39:38.399 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:39:38.400 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:39:38.404 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:39:38.411 +05:30 [INF] Executing ViewResult, running view FormM.
+2024-01-10 16:39:38.454 +05:30 [INF] Executed ViewResult - view FormM executed in 44.2918ms.
+2024-01-10 16:39:38.456 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 49.2816ms
+2024-01-10 16:39:38.457 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:39:38.458 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:09:38 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:39:38.459 +05:30 [INF] HTTP GET /Consultation/FormM responded 200 in 59.9196 ms
+2024-01-10 16:39:38.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormM - - - 200 - text/html;+charset=utf-8 64.8519ms
+2024-01-10 16:39:38.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:39:38.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:39:38.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:39:38.467 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:39:38.469 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.6084ms
+2024-01-10 16:39:38.471 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:39:38.472 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 5.1783 ms
+2024-01-10 16:39:38.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 7.4204ms
+2024-01-10 16:39:38.495 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.9639ms
+2024-01-10 16:39:45.926 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/FormM application/x-www-form-urlencoded 301
+2024-01-10 16:39:45.929 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 301
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:39:45.932 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:39:45.937 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM(SUSS.DOM.Entities.FormM) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:39:50.947 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 5007.767ms
+2024-01-10 16:39:50.954 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:39:50.956 +05:30 [ERR] HTTP POST /Consultation/FormM responded 500 in 5026.9781 ms
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at MailKit.Net.SocketUtils.Connect(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.Connect(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetwork(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SussBookingAppointment.Services.SmtpServices.SussBookingAppointment.Services.ISmtpServices.SendEmailAsync(String email, String type, String bookingID)
+   at SussBookingAppointment.Handlers.CreateBookingHandler.MediatR.IRequestHandler<SussBookingAppointment.Commands.CreateBookingCommand,System.Int32>.Handle(CreateBookingCommand request, CancellationToken cancellationToken)
+   at SussBookingAppointment.Controllers.ConsultationController.FormM(FormM model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-10 16:39:51.054 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at MailKit.Net.SocketUtils.Connect(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.Connect(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetwork(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SussBookingAppointment.Services.SmtpServices.SussBookingAppointment.Services.ISmtpServices.SendEmailAsync(String email, String type, String bookingID)
+   at SussBookingAppointment.Handlers.CreateBookingHandler.MediatR.IRequestHandler<SussBookingAppointment.Commands.CreateBookingCommand,System.Int32>.Handle(CreateBookingCommand request, CancellationToken cancellationToken)
+   at SussBookingAppointment.Controllers.ConsultationController.FormM(FormM model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-10 16:39:51.117 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/FormM application/x-www-form-urlencoded 301 - 500 - text/html;+charset=utf-8 5190.3747ms
+2024-01-10 16:39:51.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:39:51.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:39:51.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.3840ms
+2024-01-10 16:39:51.133 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.8104ms
+2024-01-10 16:41:43.317 +05:30 [INF] User profile is available. Using 'C:\Users\abdul.rub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-10 16:41:43.646 +05:30 [INF] Now listening on: https://localhost:7196
+2024-01-10 16:41:43.647 +05:30 [INF] Now listening on: http://localhost:5252
+2024-01-10 16:41:43.651 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-10 16:41:43.652 +05:30 [INF] Hosting environment: Development
+2024-01-10 16:41:43.653 +05:30 [INF] Content root path: C:\Users\abdul.rub\Desktop\AbdulRub\SUSS Project\SussBookingAppointment\SussBookingAppointment\
+2024-01-10 16:41:49.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+2024-01-10 16:41:49.443 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:41:49.477 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:41:49.522 +05:30 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.LoginController (SussBookingAppointment).
+2024-01-10 16:41:50.291 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-10 16:41:50.541 +05:30 [INF] Executed ViewResult - view Index executed in 250.492ms.
+2024-01-10 16:41:50.551 +05:30 [INF] Executed action SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment) in 1024.677ms
+2024-01-10 16:41:50.554 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:41:50.559 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:11:49 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2024-01-10 16:41:50.564 +05:30 [INF] HTTP GET / responded 200 in 1124.5941 ms
+2024-01-10 16:41:50.596 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 200 - text/html;+charset=utf-8 1193.3693ms
+2024-01-10 16:41:50.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:41:50.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:41:50.600 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:41:50.600 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:41:50.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 22.4149ms
+2024-01-10 16:41:50.623 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:41:50.625 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 24.6915 ms
+2024-01-10 16:41:50.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 28.9523ms
+2024-01-10 16:41:50.635 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.4766ms
+2024-01-10 16:41:56.771 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 236
+2024-01-10 16:41:56.775 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 236
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:41:56.778 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:41:56.795 +05:30 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(SUSS.DOM.Entities.LoginModel) on controller SussBookingAppointment.Controllers.LoginController (SussBookingAppointment).
+2024-01-10 16:41:57.101 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4.
+2024-01-10 16:41:57.104 +05:30 [INF] Executed action SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment) in 306.3915ms
+2024-01-10 16:41:57.106 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.LoginController.Index (SussBookingAppointment)'
+2024-01-10 16:41:57.112 +05:30 [INF] Session started; Key:8257efe6-0b56-f4bf-4428-69d570ab7c79, Id:d94d0207-9794-a076-c2c0-f26a14768c56
+2024-01-10 16:41:57.114 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4
+2024-01-10 16:41:57.115 +05:30 [INF] HTTP POST / responded 302 in 340.1666 ms
+2024-01-10 16:41:57.116 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/ application/x-www-form-urlencoded 236 - 302 0 - 344.8471ms
+2024-01-10 16:41:57.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4 - -
+2024-01-10 16:41:57.123 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:41:57.126 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:41:57.129 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(System.String) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:41:57.173 +05:30 [INF] Executing ViewResult, running view CunsultancyType.
+2024-01-10 16:41:57.199 +05:30 [INF] Executed ViewResult - view CunsultancyType executed in 26.7877ms.
+2024-01-10 16:41:57.200 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 70.0129ms
+2024-01-10 16:41:57.201 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:41:57.202 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:11:56 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2024-01-10 16:41:57.203 +05:30 [INF] HTTP GET /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4 responded 200 in 79.5072 ms
+2024-01-10 16:41:57.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4 - - - 200 - text/html;+charset=utf-8 83.5459ms
+2024-01-10 16:41:57.209 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:41:57.209 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:41:57.209 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:41:57.210 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:41:57.211 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.4188ms
+2024-01-10 16:41:57.213 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:41:57.214 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 3.5957 ms
+2024-01-10 16:41:57.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 6.6992ms
+2024-01-10 16:41:57.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.4491ms
+2024-01-10 16:42:03.269 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4 application/x-www-form-urlencoded 227
+2024-01-10 16:42:03.271 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 227
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:42:03.274 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:42:03.282 +05:30 [INF] Route matched with {action = "CunsultancyType", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CunsultancyType(SussBookingAppointment.ViewModel.CunsultancyTypeViewModel) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:42:03.298 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/FormD?type=1.
+2024-01-10 16:42:03.300 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment) in 15.0042ms
+2024-01-10 16:42:03.302 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.CunsultancyType (SussBookingAppointment)'
+2024-01-10 16:42:03.302 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/FormD?type=1
+2024-01-10 16:42:03.303 +05:30 [INF] HTTP POST /Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4 responded 302 in 32.1713 ms
+2024-01-10 16:42:03.304 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/CunsultancyType/CfDJ8GRntl1LsLlCumk5FaBHS01KWV-uW96mpJIExUsVOBX9Akm9Ny4iwkEPGQG2K9nUCZ5oGzrrp5zXLrgxuPyiNbqGtYUxVjgGYIHaH_7E90991oqIKWPdL-rBo371RYDZva4BsPKnaMlxktxn-8-2qv4 application/x-www-form-urlencoded 227 - 302 0 - 35.8554ms
+2024-01-10 16:42:03.309 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - -
+2024-01-10 16:42:03.311 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:42:03.312 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:42:03.315 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(Int32) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:42:03.331 +05:30 [INF] Executing ViewResult, running view FormD.
+2024-01-10 16:42:03.454 +05:30 [INF] Executed ViewResult - view FormD executed in 123.3466ms.
+2024-01-10 16:42:03.456 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 139.9908ms
+2024-01-10 16:42:03.459 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:42:03.460 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:12:02 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:42:03.461 +05:30 [INF] HTTP GET /Consultation/FormD responded 200 in 149.6807 ms
+2024-01-10 16:42:03.465 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormD?type=1 - - - 200 - text/html;+charset=utf-8 156.2924ms
+2024-01-10 16:42:03.468 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:42:03.469 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:42:03.469 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:42:03.470 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:42:03.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.5514ms
+2024-01-10 16:42:03.472 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:42:03.474 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 4.4306 ms
+2024-01-10 16:42:03.486 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 17.2844ms
+2024-01-10 16:42:03.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.8105ms
+2024-01-10 16:42:11.424 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/FormD application/x-www-form-urlencoded 411
+2024-01-10 16:42:11.426 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/FormD
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 411
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:42:11.430 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:42:11.433 +05:30 [INF] Route matched with {action = "FormD", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormD(SUSS.DOM.Entities.UserRegistration) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:42:11.474 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/FormM.
+2024-01-10 16:42:11.477 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment) in 42.6912ms
+2024-01-10 16:42:11.480 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormD (SussBookingAppointment)'
+2024-01-10 16:42:11.482 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/FormM
+Set-Cookie: [Redacted]
+2024-01-10 16:42:11.483 +05:30 [INF] HTTP POST /Consultation/FormD responded 302 in 56.9288 ms
+2024-01-10 16:42:11.485 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/FormD application/x-www-form-urlencoded 411 - 302 0 - 61.3774ms
+2024-01-10 16:42:11.488 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/FormM - -
+2024-01-10 16:42:11.489 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:42:11.490 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:42:11.493 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:42:11.589 +05:30 [INF] Executing ViewResult, running view FormM.
+2024-01-10 16:42:11.618 +05:30 [INF] Executed ViewResult - view FormM executed in 29.9004ms.
+2024-01-10 16:42:11.620 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 125.2935ms
+2024-01-10 16:42:11.622 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:42:11.623 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:12:10 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2024-01-10 16:42:11.624 +05:30 [INF] HTTP GET /Consultation/FormM responded 200 in 134.8018 ms
+2024-01-10 16:42:11.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/FormM - - - 200 - text/html;+charset=utf-8 140.7119ms
+2024-01-10 16:42:11.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:42:11.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:42:11.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:42:11.634 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:42:11.634 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.5038ms
+2024-01-10 16:42:11.636 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:42:11.637 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 3.5372 ms
+2024-01-10 16:42:11.639 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 6.7971ms
+2024-01-10 16:42:11.641 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.8257ms
+2024-01-10 16:42:15.193 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7196/Consultation/FormM application/x-www-form-urlencoded 301
+2024-01-10 16:42:15.195 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Consultation/FormM
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 301
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:42:15.196 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:42:15.200 +05:30 [INF] Route matched with {action = "FormM", controller = "Consultation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormM(SUSS.DOM.Entities.FormM) on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:42:18.260 +05:30 [INF] Executing RedirectResult, redirecting to /Consultation/Confirm.
+2024-01-10 16:42:18.261 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment) in 3058.1885ms
+2024-01-10 16:42:18.262 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.FormM (SussBookingAppointment)'
+2024-01-10 16:42:18.263 +05:30 [INF] Response:
+StatusCode: 302
+Location: /Consultation/Confirm
+Set-Cookie: [Redacted]
+2024-01-10 16:42:18.263 +05:30 [INF] HTTP POST /Consultation/FormM responded 302 in 3068.0508 ms
+2024-01-10 16:42:18.265 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7196/Consultation/FormM application/x-www-form-urlencoded 301 - 302 0 - 3072.0032ms
+2024-01-10 16:42:18.269 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/Consultation/Confirm - -
+2024-01-10 16:42:18.270 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Consultation/Confirm
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2024-01-10 16:42:18.272 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.ConsultationController.Confirm (SussBookingAppointment)'
+2024-01-10 16:42:18.274 +05:30 [INF] Route matched with {action = "Confirm", controller = "Consultation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Confirm() on controller SussBookingAppointment.Controllers.ConsultationController (SussBookingAppointment).
+2024-01-10 16:42:18.279 +05:30 [INF] Executing ViewResult, running view Confirm.
+2024-01-10 16:42:18.287 +05:30 [INF] Executed ViewResult - view Confirm executed in 9.2224ms.
+2024-01-10 16:42:18.288 +05:30 [INF] Executed action SussBookingAppointment.Controllers.ConsultationController.Confirm (SussBookingAppointment) in 11.2445ms
+2024-01-10 16:42:18.290 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.ConsultationController.Confirm (SussBookingAppointment)'
+2024-01-10 16:42:18.291 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:12:17 GMT
+Server: Kestrel
+2024-01-10 16:42:18.294 +05:30 [INF] HTTP GET /Consultation/Confirm responded 200 in 23.3219 ms
+2024-01-10 16:42:18.298 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/Consultation/Confirm - - - 200 - text/html;+charset=utf-8 29.2769ms
+2024-01-10 16:42:18.302 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:42:18.303 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:42:18.303 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:42:18.303 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:42:18.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.9189ms
+2024-01-10 16:42:18.308 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:42:18.309 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 5.3232 ms
+2024-01-10 16:42:18.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 9.1842ms
+2024-01-10 16:42:18.353 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.6303ms
+2024-01-10 16:44:17.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/booking/index - -
+2024-01-10 16:44:17.500 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /booking/index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:44:17.501 +05:30 [INF] Executing endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-10 16:44:17.504 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SussBookingAppointment.Controllers.BookingController (SussBookingAppointment).
+2024-01-10 16:44:18.908 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-10 16:44:18.935 +05:30 [INF] Executed ViewResult - view Index executed in 28.2673ms.
+2024-01-10 16:44:18.937 +05:30 [INF] Executed action SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment) in 1430.8375ms
+2024-01-10 16:44:18.939 +05:30 [INF] Executed endpoint 'SussBookingAppointment.Controllers.BookingController.Index (SussBookingAppointment)'
+2024-01-10 16:44:18.940 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 Jan 2024 11:14:18 GMT
+Server: Kestrel
+2024-01-10 16:44:18.941 +05:30 [INF] HTTP GET /booking/index responded 200 in 1440.9305 ms
+2024-01-10 16:44:18.944 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/booking/index - - - 200 - text/html;+charset=utf-8 1459.4424ms
+2024-01-10 16:44:18.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/css/responsive.css - -
+2024-01-10 16:44:18.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2024-01-10 16:44:18.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2024-01-10 16:44:18.950 +05:30 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /css/responsive.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:7196
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-01-10 16:44:18.950 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.7058ms
+2024-01-10 16:44:18.953 +05:30 [INF] Response:
+StatusCode: 404
+2024-01-10 16:44:18.954 +05:30 [INF] HTTP GET /css/responsive.css responded 404 in 3.7298 ms
+2024-01-10 16:44:18.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/css/responsive.css - - - 404 0 - 6.3012ms
+2024-01-10 16:44:18.995 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.1993ms

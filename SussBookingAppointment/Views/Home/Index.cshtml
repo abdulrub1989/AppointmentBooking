@@ -1,0 +1,70 @@
+﻿@model LoginModel
+@{
+    ViewData["Title"] = "Home Page";
+    
+}
+<link rel='stylesheet' type='text/css' media='screen' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+<style type="text/css">
+
+    @@media only screen and (max-width: 600px) {
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .text-left{
+        text-align:left !important;
+    }
+</style>
+
+    @*<div class="alert alert-danger">
+        
+    </div>*@
+
+<div class="row justify-content-center">
+    <div class="col-lg-9 col-md-10 col-sm-12 text-center p-0 mt-3 mb-2">
+        <div class="card shadow mb-4 px-0 pt-4 pb-0 mt-3 mb-3">
+            <div class="card-body text-left" style="margin-top:15px;">
+                <div class="card-title text-center py-3">
+                    <h2 class="font-weight-bold">
+                        Login Page
+                    </h2>
+                </div>
+                <form asp-action="Index" class="text-left">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <label asp-for="EmailAddress" class="control-label">Email Address<span class="text-danger">*</span></label>
+                            <input asp-for="EmailAddress" class="form-control" required />
+                            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    @*<div class="row">
+                        <div class="form-group col-md-12">
+                            <label asp-for="CunsultancyType" class="control-label">Cunsultancy Type<span class="text-danger">*</span></label>
+                            <select class="form-control" required asp-for="CunsultancyType">
+                                <option value="">Select CunsultancyType</option>
+                                <option value="1">First Consultation (Counselling)</option>
+                                <option value="2">First Consultation (Dreamworks)</option>
+                                <option value="3">First Consultation (Life Coaching)</option>
+                            </select>
+                            <span asp-validation-for="CunsultancyType" class="text-danger"></span>
+                        </div>
+                    </div>*@
+                    <div class="row">
+                        <div class="form-group col-md-12 mb-5 text-center">
+                            <button type="submit" id="btnsave" class="btn btn-primary">
+                                Next
+                            </button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
