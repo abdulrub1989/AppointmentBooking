@@ -704,11 +704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\SUSS.DAL\\SUSS.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\SUSS.DAL\\SUSS.DAL.csproj",
       "projectName": "SUSS.DAL",
-      "projectPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\SUSS.DAL\\SUSS.DAL.csproj",
+      "projectPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\SUSS.DAL\\SUSS.DAL.csproj",
       "packagesPath": "C:\\Users\\abdul.rub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\SUSS.DAL\\obj\\",
+      "outputPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\SUSS.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdul.rub\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -725,8 +725,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\SUSS.DOM\\SUSS.DOM.csproj": {
-              "projectPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\SUSS.DOM\\SUSS.DOM.csproj"
+            "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\SUSS.DOM\\SUSS.DOM.csproj": {
+              "projectPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\SUSS.DOM\\SUSS.DOM.csproj"
             }
           }
         }

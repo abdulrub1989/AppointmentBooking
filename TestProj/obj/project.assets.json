@@ -189,11 +189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\TestProj\\TestProj.csproj",
+      "projectUniqueName": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\TestProj\\TestProj.csproj",
       "projectName": "TestProj",
-      "projectPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\TestProj\\TestProj.csproj",
+      "projectPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\TestProj\\TestProj.csproj",
       "packagesPath": "C:\\Users\\abdul.rub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\SUSS Project\\SussBookingAppointment\\TestProj\\obj\\",
+      "outputPath": "C:\\Users\\abdul.rub\\Desktop\\AbdulRub\\FinalSussProject\\TestProj\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdul.rub\\AppData\\Roaming\\NuGet\\NuGet.Config",
